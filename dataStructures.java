@@ -30,9 +30,16 @@ public class dataStructures
 		//testStack();
 		//testQueue();
 		//testRecursion();
-        testBinarySearchTree();
+        //testBinarySearchTree();
+        testAVLTree();
 
 		logger.trace(getCurrentMethodName() + " Exiting ");
+
+    }
+
+    public static void testAVLTree()
+    {
+        AVLTreeDS AVLTreeDS001 = new AVLTreeDS();
 
     }
 
