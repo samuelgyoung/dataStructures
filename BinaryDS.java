@@ -1,5 +1,3 @@
-import javax.lang.model.util.ElementScanner6;
-
 import org.apache.log4j.Logger;
 
 public class BinaryDS 
@@ -121,7 +119,7 @@ public class BinaryDS
         logger.trace(getCurrentMethodName() + " Entering ");
         logger.debug(getCurrentMethodName() + " Returning root node:  " + rootNode);
         logger.trace(getCurrentMethodName() + " Exiting ");
-		return rootNode;
+		return this.rootNode;
 	}
 	
 	//DEPTH FIRST TRAVERSALS ______________________________________________
@@ -729,8 +727,8 @@ public class BinaryDS
 		public Node()
 		{
 			logger.trace(getCurrentMethodName() + " Entering ");
-			leftSubTree = null;
-			rightSubTree = null;
+			this.leftSubTree = null;
+			this.rightSubTree = null;
 			logger.trace(getCurrentMethodName() + " Exiting ");
 		}
 		
@@ -738,7 +736,7 @@ public class BinaryDS
             logger.trace(getCurrentMethodName() + " Entering ");
             logger.debug(getCurrentMethodName() + " Returning Left Tree Node : " + leftSubTree);
             logger.trace(getCurrentMethodName() + " Exiting ");
-			return leftSubTree;
+			return this.leftSubTree;
 		}
 
 		public void setLeftSubTree(Node leftSubTree) {
@@ -752,7 +750,7 @@ public class BinaryDS
             logger.trace(getCurrentMethodName() + " Entering ");
             logger.debug(getCurrentMethodName() + " Returning Right Tree Node : " + rightSubTree);
             logger.trace(getCurrentMethodName() + " Exiting ");
-			return rightSubTree;
+			return this.rightSubTree;
 		}
 
 		public void setRightSubTree(Node rightSubTree) {
@@ -766,7 +764,7 @@ public class BinaryDS
 		{
 			logger.trace(getCurrentMethodName() + " Entering ");
 			logger.trace(getCurrentMethodName() + " Exiting ");
-			return data;
+			return this.data;
 		}
 
 		public boolean setData(Object data) 

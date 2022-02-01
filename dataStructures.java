@@ -30,7 +30,7 @@ public class dataStructures
 		//testStack();
 		testQueue();
 		//testRecursion();
-        //testBinarySearchTree();
+        testBinarySearchTree();
 
 		logger.trace(getCurrentMethodName() + " Exiting ");
 
