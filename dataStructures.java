@@ -28,7 +28,7 @@ public class dataStructures
 		//testArray();
         //testLinkedList();
 		//testStack();
-		//testQueue();
+		testQueue();
 		//testRecursion();
         //testBinarySearchTree();
 
