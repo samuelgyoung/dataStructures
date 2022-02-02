@@ -18,7 +18,58 @@ public class AVLTreeDS extends BinaryDS
 	 * 		(NOTE: Book had C++ implmentation only)
 	 */ 
 
+	AVLTreeDS()
+	{
+		this.root = null;
+	}
+
+	public void AVLInsert(Node root, Object data)
+	{
+		AVLInsertHelper(root, new Node(data), false);
+	}
+
+	private <T extends Comparable<T>> Node AVLInsertHelper(Node root, Node newNode, boolean taller)
+	{
+		logger.trace(getCurrentMethodName() + " Entering ");
+		if(this.root == null)
+		{
+			logger.info(getCurrentMethodName() + " root is null. Inserting at root");
+
+			this.root = newNode; 
+			taller = true;
+
+            logger.trace(getCurrentMethodName() + " Exiting ");
+			return this.root;
+		}
+
+		if(((Comparable<T>) newNode.getData()).compareTo((T) this.root.getData()) < 0)
+		{
+			logger.trace(getCurrentMethodName() + " Entering ");
+			logger.info(getCurrentMethodName() + " Node being inserted is less than current node, Setting current left node to inserted node. ");
+			root.setLeftSubTree(AVLInsertHelper(root.getLeftSubTree(), newNode, taller));
+
+			if(taller == true)
+			{
+				logger.info(getCurrentMethodName() + " Left subtree is taller. ");
+				//- LH = Left High (-1): EH = Even High (0): RH = Right High (1)
+			}
+
+			logger.trace(getCurrentMethodName() + " Exiting ");
+			return newNode;
+		}
+		//if(((Comparable<T>) newNode.getData()).compareTo((T) root.getData()) < 0)
+		//{
+		//	logger.info(getCurrentMethodName() + " Node being inserted is less than current node, Setting current left node to inserted node. ");
+		//	root.setLeftSubTree(AVLInsertHelper(root.getLeftSubTree(), newNode, taller));
+
+        //    logger.trace(getCurrentMethodName() + " Exiting ");
+		//}
+
+		return newNode;
+	}
+	
 	// A utility function to get the height of the tree
+	/*
 	public int getHeight(Node N)
 	{
 		logger.trace(getCurrentMethodName() + " Entering ");
@@ -48,7 +99,7 @@ public class AVLTreeDS extends BinaryDS
 		else
 		{
 			return b;
-		}*/
+		}
 		logger.trace(getCurrentMethodName() + " Entering ");
 		logger.trace(getCurrentMethodName() + " Exiting ");
 		return (a > b) ? a : b;
@@ -72,17 +123,68 @@ public class AVLTreeDS extends BinaryDS
 		logger.trace(getCurrentMethodName() + " Exiting ");
         // Return new root
         return x;
-    }
+    }*/
 
     class Node
 	{
+		//private Node leftSubTree;
+		//private Node rightSubTree;
+		//private Object data;
+		//private int key;
+		//private int height;
+
+
 		private Node leftSubTree;
 		private Node rightSubTree;
-		//private Object data;
-		private int key;
-		private int height;
+		private Object data;
+		int bal;
 		
-		
+		public Node(Object data)
+		{
+			logger.trace(getCurrentMethodName() + " Entering ");
+			this.leftSubTree = null;
+			this.rightSubTree = null;
+			this.data = data;
+			logger.trace(getCurrentMethodName() + " Exiting ");
+		}
+
+		public Object getData() 
+		{
+			logger.trace(getCurrentMethodName() + " Entering ");
+			logger.trace(getCurrentMethodName() + " Exiting ");
+			return this.data;
+		}
+
+		public Node getLeftSubTree() 
+		{
+            logger.trace(getCurrentMethodName() + " Entering ");
+            logger.debug(getCurrentMethodName() + " Returning Left Tree Node : " + leftSubTree);
+            logger.trace(getCurrentMethodName() + " Exiting ");
+			return this.leftSubTree;
+		}
+
+		public void setLeftSubTree(Node leftSubTree) {
+            logger.trace(getCurrentMethodName() + " Entering ");
+            logger.debug(getCurrentMethodName() + " Setting left node to : " + leftSubTree);
+            logger.trace(getCurrentMethodName() + " Exiting ");
+			this.leftSubTree = leftSubTree;
+		}
+
+		public Node getRightSubTree() {
+            logger.trace(getCurrentMethodName() + " Entering ");
+            logger.debug(getCurrentMethodName() + " Returning Right Tree Node : " + rightSubTree);
+            logger.trace(getCurrentMethodName() + " Exiting ");
+			return this.rightSubTree;
+		}
+
+		public void setRightSubTree(Node rightSubTree) {
+            logger.trace(getCurrentMethodName() + " Entering ");
+            logger.debug(getCurrentMethodName() + " Setting right node to : " + rightSubTree);
+            logger.trace(getCurrentMethodName() + " Exiting ");
+			this.rightSubTree = rightSubTree;
+		}
+
+		/*
 		public Node(int key)
 		{
 			logger.trace(getCurrentMethodName() + " Entering ");
@@ -179,7 +281,7 @@ public class AVLTreeDS extends BinaryDS
     |
     |  Returns: Method Name.
     *-------------------------------------------------------------------*/
-	private static String getCurrentMethodName() 
+	protected static String getCurrentMethodName() 
     { 
         StackTraceElement stackTraceElements[] = (new Throwable()).getStackTrace(); 
         

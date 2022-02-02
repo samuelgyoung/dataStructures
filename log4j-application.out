@@ -1,0 +1,32 @@
+2022-02-02 11:44:13,046 [main] INFO  BinaryDS - <init>(BinaryDS.java:48) Creating Binary Search Tree (BST). Childeren to the left are less than the root, and greater on the right.
+2022-02-02 11:44:13,050 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:31) root is null. Inserting at root
+2022-02-02 11:56:38,811 [main] INFO  BinaryDS - <init>(BinaryDS.java:48) Creating Binary Search Tree (BST). Childeren to the left are less than the root, and greater on the right.
+2022-02-02 11:56:38,815 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:31) root is null. Inserting at root
+2022-02-02 11:56:38,815 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:31) root is null. Inserting at root
+2022-02-02 11:57:33,822 [main] INFO  BinaryDS - <init>(BinaryDS.java:48) Creating Binary Search Tree (BST). Childeren to the left are less than the root, and greater on the right.
+2022-02-02 11:57:33,825 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:31) root is null. Inserting at root
+2022-02-02 11:58:26,680 [main] INFO  BinaryDS - <init>(BinaryDS.java:48) Creating Binary Search Tree (BST). Childeren to the left are less than the root, and greater on the right.
+2022-02-02 11:58:26,683 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:36) root is null. Inserting at root
+2022-02-02 12:57:45,982 [main] INFO  BinaryDS - <init>(BinaryDS.java:48) Creating Binary Search Tree (BST). Childeren to the left are less than the root, and greater on the right.
+2022-02-02 12:57:45,986 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:36) root is null. Inserting at root
+2022-02-02 12:58:31,698 [main] INFO  BinaryDS - <init>(BinaryDS.java:48) Creating Binary Search Tree (BST). Childeren to the left are less than the root, and greater on the right.
+2022-02-02 12:58:31,700 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:36) root is null. Inserting at root
+2022-02-02 13:19:20,472 [main] INFO  BinaryDS - <init>(BinaryDS.java:48) Creating Binary Search Tree (BST). Childeren to the left are less than the root, and greater on the right.
+2022-02-02 13:19:20,475 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:36) root is null. Inserting at root
+2022-02-02 13:22:43,726 [main] INFO  BinaryDS - <init>(BinaryDS.java:48) Creating Binary Search Tree (BST). Childeren to the left are less than the root, and greater on the right.
+2022-02-02 13:22:43,730 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:36) root is null. Inserting at root
+2022-02-02 13:24:25,764 [main] INFO  BinaryDS - <init>(BinaryDS.java:48) Creating Binary Search Tree (BST). Childeren to the left are less than the root, and greater on the right.
+2022-02-02 13:24:25,768 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:36) root is null. Inserting at root
+2022-02-02 13:24:50,241 [main] INFO  BinaryDS - <init>(BinaryDS.java:48) Creating Binary Search Tree (BST). Childeren to the left are less than the root, and greater on the right.
+2022-02-02 13:24:50,244 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:36) root is null. Inserting at root
+2022-02-02 13:25:18,821 [main] INFO  BinaryDS - <init>(BinaryDS.java:48) Creating Binary Search Tree (BST). Childeren to the left are less than the root, and greater on the right.
+2022-02-02 13:25:18,825 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:36) root is null. Inserting at root
+2022-02-02 13:26:44,043 [main] INFO  BinaryDS - <init>(BinaryDS.java:48) Creating Binary Search Tree (BST). Childeren to the left are less than the root, and greater on the right.
+2022-02-02 13:26:44,047 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:36) root is null. Inserting at root
+2022-02-02 13:26:44,047 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:47) Node being inserted is less than current node, Setting current left node to inserted node. 
+2022-02-02 14:55:05,640 [main] INFO  BinaryDS - <init>(BinaryDS.java:48) Creating Binary Search Tree (BST). Childeren to the left are less than the root, and greater on the right.
+2022-02-02 14:55:05,645 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:36) root is null. Inserting at root
+2022-02-02 14:55:05,646 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:48) Node being inserted is less than current node, Setting current left node to inserted node. 
+2022-02-02 14:57:28,652 [main] INFO  BinaryDS - <init>(BinaryDS.java:48) Creating Binary Search Tree (BST). Childeren to the left are less than the root, and greater on the right.
+2022-02-02 14:57:28,656 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:36) root is null. Inserting at root
+2022-02-02 14:57:28,656 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:48) Node being inserted is less than current node, Setting current left node to inserted node. 

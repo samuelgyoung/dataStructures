@@ -28,7 +28,7 @@ public class dataStructures
 		//testArray();
         //testLinkedList();
 		//testStack();
-		testQueue();
+		//testQueue();
 		//testRecursion();
         //testBinarySearchTree();
         testAVLTree();
@@ -40,6 +40,8 @@ public class dataStructures
     public static void testAVLTree()
     {
         AVLTreeDS AVLTreeDS001 = new AVLTreeDS();
+        AVLTreeDS001.AVLInsert(null, 5);
+        AVLTreeDS001.AVLInsert(null, 3);
 
     }
 

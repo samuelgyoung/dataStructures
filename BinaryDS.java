@@ -798,7 +798,7 @@ public class BinaryDS
     |
     |  Returns: Method Name.
     *-------------------------------------------------------------------*/
-	private static String getCurrentMethodName() 
+	protected static String getCurrentMethodName() 
  	{ 
  		StackTraceElement stackTraceElements[] = (new Throwable()).getStackTrace(); 
  		
