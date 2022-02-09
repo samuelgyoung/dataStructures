@@ -41,7 +41,7 @@ public class dataStructures
     {
         AVLTreeDS AVLTreeDS001 = new AVLTreeDS();
         AVLTreeDS001.AVLInsert(null, 5);
-        AVLTreeDS001.AVLInsert(null, 3);
+        //AVLTreeDS001.AVLInsert(null, 6);
 
     }
 

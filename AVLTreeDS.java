@@ -1,3 +1,5 @@
+import javax.lang.model.util.ElementScanner6;
+
 import org.apache.log4j.Logger;
 
 public class AVLTreeDS extends BinaryDS
@@ -20,20 +22,22 @@ public class AVLTreeDS extends BinaryDS
 
 	AVLTreeDS()
 	{
+		logger.info(getCurrentMethodName() + " Creating AVL Tree. Setting root to null.");
 		this.root = null;
 	}
 
 	public void AVLInsert(Node root, Object data)
 	{
-		AVLInsertHelper(root, new Node(data), false);
+		AVLInsertHelper(root, new Node(data), true);
 	}
 
 	private <T extends Comparable<T>> Node AVLInsertHelper(Node root, Node newNode, boolean taller)
 	{
 		logger.trace(getCurrentMethodName() + " Entering ");
+
 		if(this.root == null)
 		{
-			logger.info(getCurrentMethodName() + " root is null. Inserting at root");
+			logger.info(getCurrentMethodName() + " root is null. Inserting root for tree.");
 
 			this.root = newNode; 
 			taller = true;
@@ -44,96 +48,68 @@ public class AVLTreeDS extends BinaryDS
 
 		if(((Comparable<T>) newNode.getData()).compareTo((T) this.root.getData()) < 0)
 		{
-			logger.trace(getCurrentMethodName() + " Entering ");
-			logger.info(getCurrentMethodName() + " Node being inserted is less than current node, Setting current left node to inserted node. ");
+			logger.info(getCurrentMethodName() + " Node being inserted is less than current node. Setting left subtree.");
 			root.setLeftSubTree(AVLInsertHelper(root.getLeftSubTree(), newNode, taller));
 
 			if(taller == true)
 			{
 				logger.info(getCurrentMethodName() + " Left subtree is taller. ");
 				//- LH = Left High (-1): EH = Even High (0): RH = Right High (1)
+					if (root.getBal() == -1)
+					{
+						logger.info(getCurrentMethodName() + " Tree is left high (-1).  Running leftBalance algorithm on current root. ");
+						//root = leftBalance(root, taller);
+					}
+					else if(root.getBal() == 0)
+					{
+						logger.info(getCurrentMethodName() + " Tree is even high. Setting balance to left high (-1) ");
+						root.setBal(-1);
+					}
+					else
+					{
+						logger.info(getCurrentMethodName() + " Tree was right high (1) --now even high. (0) ");
+						root.setBal(0);
+						taller = false;
+					}
 			}
 
 			logger.trace(getCurrentMethodName() + " Exiting ");
 			return newNode;
 		}
-		//if(((Comparable<T>) newNode.getData()).compareTo((T) root.getData()) < 0)
-		//{
-		//	logger.info(getCurrentMethodName() + " Node being inserted is less than current node, Setting current left node to inserted node. ");
-		//	root.setLeftSubTree(AVLInsertHelper(root.getLeftSubTree(), newNode, taller));
-
-        //    logger.trace(getCurrentMethodName() + " Exiting ");
-		//}
-
-		return newNode;
-	}
-	
-	// A utility function to get the height of the tree
-	/*
-	public int getHeight(Node N)
-	{
-		logger.trace(getCurrentMethodName() + " Entering ");
-
-		if(N == null)
-		{
-			logger.debug(getCurrentMethodName() + " Node is null. Returning : " + 0);
-			logger.trace(getCurrentMethodName() + " Exiting ");
-			return 0;
-		}
 		else
 		{
-			logger.debug(getCurrentMethodName() + " Node is NOT null. Returning : " + N.getHeight());
-			logger.trace(getCurrentMethodName() + " Exiting ");
-			return N.getHeight();
-		}
+			logger.info(getCurrentMethodName() + " Node being inserted is greater than or equal to current node. Setting right subtree. ");
+			root.setRightSubTree(AVLInsertHelper(root.getRightSubTree(), newNode, taller));
 
+			if(taller == true)
+			{
+				logger.info(getCurrentMethodName() + " Right subtree is taller. ");
+				//- LH = Left High (-1): EH = Even High (0): RH = Right High (1)
+				
+				if( root.getBal() == -1 )
+				{
+					logger.info(getCurrentMethodName() + " Tree was left high (-1), tree is now even high (0).");
+					root.setBal(0);
+					taller = false;
+				}
+				else if(root.getBal() == 0)
+				{
+					logger.info(getCurrentMethodName() + " Tree is even high. Setting balance to right high (1) ");
+					root.setBal(1);
+				}
+				else 
+				{
+					logger.info(getCurrentMethodName() + " Tree is right high (1). Running rightBalance algorithm on current root. ");
+					//root = rightBalance (root, taller);
+				}
+			}
+
+			return newNode;
+		}		
 	}
-
-	// A utility function to get maximum of two integers
-	private int max(int a, int b) 
-	{
-		/*if(a > b)
-		{
-			return a;
-		}
-		else
-		{
-			return b;
-		}
-		logger.trace(getCurrentMethodName() + " Entering ");
-		logger.trace(getCurrentMethodName() + " Exiting ");
-		return (a > b) ? a : b;
-	}
-
-	private Node rightRotate(Node y) 
-	{
-		logger.trace(getCurrentMethodName() + " Entering ");
-        Node x = y.getLeftSubTree();
-        Node T2 = x.getRightSubTree();
- 
-        // Perform rotation
-        x.setRightSubTree(y);
-        y.setRightSubTree(T2);
- 
-        // Update heights
-        y.setHeight(max(getHeight(y.getLeftSubTree()), getHeight(y.getRightSubTree())) + 1);
-        x.setHeight(max(getHeight(x.getLeftSubTree()), getHeight(x.getRightSubTree())) + 1);
- 
-		logger.debug(getCurrentMethodName() + " Returning Node : " + x);
-		logger.trace(getCurrentMethodName() + " Exiting ");
-        // Return new root
-        return x;
-    }*/
 
     class Node
 	{
-		//private Node leftSubTree;
-		//private Node rightSubTree;
-		//private Object data;
-		//private int key;
-		//private int height;
-
-
 		private Node leftSubTree;
 		private Node rightSubTree;
 		private Object data;
@@ -147,66 +123,23 @@ public class AVLTreeDS extends BinaryDS
 			this.data = data;
 			logger.trace(getCurrentMethodName() + " Exiting ");
 		}
-
-		public Object getData() 
-		{
-			logger.trace(getCurrentMethodName() + " Entering ");
-			logger.trace(getCurrentMethodName() + " Exiting ");
-			return this.data;
-		}
-
-		public Node getLeftSubTree() 
-		{
-            logger.trace(getCurrentMethodName() + " Entering ");
-            logger.debug(getCurrentMethodName() + " Returning Left Tree Node : " + leftSubTree);
-            logger.trace(getCurrentMethodName() + " Exiting ");
-			return this.leftSubTree;
-		}
-
-		public void setLeftSubTree(Node leftSubTree) {
-            logger.trace(getCurrentMethodName() + " Entering ");
-            logger.debug(getCurrentMethodName() + " Setting left node to : " + leftSubTree);
-            logger.trace(getCurrentMethodName() + " Exiting ");
-			this.leftSubTree = leftSubTree;
-		}
-
-		public Node getRightSubTree() {
-            logger.trace(getCurrentMethodName() + " Entering ");
-            logger.debug(getCurrentMethodName() + " Returning Right Tree Node : " + rightSubTree);
-            logger.trace(getCurrentMethodName() + " Exiting ");
-			return this.rightSubTree;
-		}
-
-		public void setRightSubTree(Node rightSubTree) {
-            logger.trace(getCurrentMethodName() + " Entering ");
-            logger.debug(getCurrentMethodName() + " Setting right node to : " + rightSubTree);
-            logger.trace(getCurrentMethodName() + " Exiting ");
-			this.rightSubTree = rightSubTree;
-		}
-
-		/*
-		public Node(int key)
-		{
-			logger.trace(getCurrentMethodName() + " Entering ");
-			this.leftSubTree = null;
-			this.rightSubTree = null;
-			this.key = key;
-			logger.trace(getCurrentMethodName() + " Exiting ");
-		}
-
-		public int getHeight()
-		{
-			logger.trace(getCurrentMethodName() + " Entering ");
-			logger.debug(getCurrentMethodName() + " Returning  : " + this.height);
-			logger.trace(getCurrentMethodName() + " Exiting ");
-			return this.height;
-		}
 		
-		public void setHeight(int newHeight)
+		public int getBal()
+		{
+			return this.bal;
+		}
+
+		public boolean setBal(int newBal)
+		{
+			this.bal = newBal;
+			return true;
+		}
+
+		public Object getData() 
 		{
 			logger.trace(getCurrentMethodName() + " Entering ");
-			this.height = newHeight;
 			logger.trace(getCurrentMethodName() + " Exiting ");
+			return this.data;
 		}
 
 		public Node getLeftSubTree() 
@@ -238,34 +171,7 @@ public class AVLTreeDS extends BinaryDS
 			this.rightSubTree = rightSubTree;
 		}
 
-		/*
-		Use this if tree supports data and keys. Right now it just supports keys as data.
-		public Object getData() 
-		{
-			logger.trace(getCurrentMethodName() + " Entering ");
-			logger.trace(getCurrentMethodName() + " Exiting ");
-			return this.data;
-		}
-		*/
 
-		/*
-		Use this if tree supports data and keys. Right now it just supports keys as data.
-		public boolean setData(Object data) 
-		{
-			logger.trace(getCurrentMethodName() + " Entering ");
-			this.data = data;
-			if(this.data == data)
-			{
-				logger.trace(getCurrentMethodName() + " Exiting ");
-				return true;
-			}
-			else
-			{
-				logger.trace(getCurrentMethodName() + " Exiting ");
-				return false;
-			}
-			
-		}*/
 	}
 
     /*---------------------------------------------------------------------
