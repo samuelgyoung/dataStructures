@@ -2,11 +2,11 @@ import javax.lang.model.util.ElementScanner6;
 
 import org.apache.log4j.Logger;
 
-public class AVLTreeDS extends BinaryDS
+public class AVLTreeDS //extends BinaryDS
 {
     final static Logger logger = Logger.getLogger(AVLTreeDS.class);
 
-	private Node root;
+	private Node rootNode;
 
     /*
 	 * AVL Tree Notes:
@@ -23,30 +23,43 @@ public class AVLTreeDS extends BinaryDS
 	AVLTreeDS()
 	{
 		logger.info(getCurrentMethodName() + " Creating AVL Tree. Setting root to null.");
-		this.root = null;
+		this.rootNode = null;
 	}
 
 	public void AVLInsert(Node root, Object data)
 	{
-		AVLInsertHelper(root, new Node(data), true);
+		logger.trace(getCurrentMethodName() + " Entering ");
+
+		if(this.rootNode == null)
+		{
+			logger.info(getCurrentMethodName() + " root is null. Inserting root for tree.");
+
+			this.rootNode = new Node(data); 
+
+            logger.trace(getCurrentMethodName() + " Exiting ");
+		}
+
+		AVLInsertHelper(this.rootNode, new Node(data), true);
+		
+		logger.trace(getCurrentMethodName() + " Exiting ");
 	}
 
 	private <T extends Comparable<T>> Node AVLInsertHelper(Node root, Node newNode, boolean taller)
 	{
 		logger.trace(getCurrentMethodName() + " Entering ");
 
-		if(this.root == null)
+		if(root == null)
 		{
 			logger.info(getCurrentMethodName() + " root is null. Inserting root for tree.");
 
-			this.root = newNode; 
+			this.rootNode = newNode; 
 			taller = true;
 
             logger.trace(getCurrentMethodName() + " Exiting ");
-			return this.root;
+			return this.rootNode;
 		}
 
-		if(((Comparable<T>) newNode.getData()).compareTo((T) this.root.getData()) < 0)
+		if(((Comparable<T>) newNode.getData()).compareTo((T) root.getData()) < 0)
 		{
 			logger.info(getCurrentMethodName() + " Node being inserted is less than current node. Setting left subtree.");
 			root.setLeftSubTree(AVLInsertHelper(root.getLeftSubTree(), newNode, taller));
@@ -58,7 +71,7 @@ public class AVLTreeDS extends BinaryDS
 					if (root.getBal() == -1)
 					{
 						logger.info(getCurrentMethodName() + " Tree is left high (-1).  Running leftBalance algorithm on current root. ");
-						//root = leftBalance(root, taller);
+						root = leftBalance(root, taller);
 					}
 					else if(root.getBal() == 0)
 					{
@@ -106,6 +119,59 @@ public class AVLTreeDS extends BinaryDS
 
 			return newNode;
 		}		
+	}
+
+	private <T extends Comparable<T>> void rotateLeft(Node root, boolean taller)
+	{
+		logger.trace(getCurrentMethodName() + " Entering ");
+
+		Node leftTree = root.getLeftSubTree();
+		
+		//- LH = Left High (-1): EH = Even High (0): RH = Right High (1)
+		if(leftTree.getBal() == -1)
+		{
+			logger.info(getCurrentMethodName() + " Case 1: Left of left. Single rotation right.");
+			logger.info(getCurrentMethodName() + " left node of root : " + leftTree + " is left high (-1)");
+			logger.info(getCurrentMethodName() + " Rotating root " + root + " node right.");
+
+			//rotateRight(root);
+			logger.info(getCurrentMethodName() + " Setting root : " + root + " to even high.");
+			root.setBal(0);
+			logger.info(getCurrentMethodName() + " Setting roots left node : " + leftTree + " to even high.");
+			leftTree.setBal(0); 
+			logger.info(getCurrentMethodName() + " Setting taller to false.");
+			taller = false;
+		}
+		else
+		{
+			logger.info(getCurrentMethodName() + " Note: even balance factor is impossible.");
+			logger.info(getCurrentMethodName() + " Case 2: Right of left. Double Rotation Required.");
+
+			Node rightTree = root.getRightSubTree();
+			logger.info(getCurrentMethodName() + " Adjust the balance factor.");
+
+				if(rightTree.getBal() == -1)
+				{
+					logger.info(getCurrentMethodName() + " right node of root : " + rightTree + " is left high.");
+					logger.info(getCurrentMethodName() + " Setting root " + root + " balance to right high (1)");
+					root.setBal(1);
+					logger.info(getCurrentMethodName() + " Setting left node  " + leftTree + " balance to even high (0)");
+					leftTree.setBal(0);
+				}
+				else if (rightTree.getBal() == 0)
+				{
+					logger.info(getCurrentMethodName() + " right node of root : " + rightTree + " even high.");
+					logger.info(getCurrentMethodName() + " Setting left node balance : " + leftTree + " to even high.");
+					leftTree.setBal(0);
+				}
+				else
+				{
+					//TODO: FINISH THIS.
+				}
+
+		}
+		
+		logger.trace(getCurrentMethodName() + " Exiting ");
 	}
 
     class Node
