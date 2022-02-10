@@ -97,3 +97,164 @@
 2022-02-04 09:18:06,672 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:40) root is null. Inserting root for tree.
 2022-02-04 09:18:06,672 [main] TRACE AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:45) Exiting 
 2022-02-04 09:18:06,672 [main] TRACE dataStructures - main(dataStructures.java:36) Exiting 
+2022-02-09 16:38:08,235 [main] TRACE dataStructures - main(dataStructures.java:26) Entering 
+2022-02-09 16:38:08,237 [main] TRACE BinaryDS - <init>(BinaryDS.java:46) Entering 
+2022-02-09 16:38:08,238 [main] INFO  BinaryDS - <init>(BinaryDS.java:48) Creating Binary Search Tree (BST). Childeren to the left are less than the root, and greater on the right.
+2022-02-09 16:38:08,239 [main] TRACE QueueDS - createQueue(QueueDS.java:40) Entering 
+2022-02-09 16:38:08,239 [main] DEBUG QueueDS - createQueue(QueueDS.java:41) Creating new queue... 
+2022-02-09 16:38:08,239 [main] TRACE QueueDS - createQueue(QueueDS.java:42) Exiting 
+2022-02-09 16:38:08,240 [main] TRACE QueueDS - QueueDS$Queue.<init>(QueueDS.java:341) Entering 
+2022-02-09 16:38:08,240 [main] TRACE QueueDS - QueueDS$Queue.<init>(QueueDS.java:342) Exiting 
+2022-02-09 16:38:08,241 [main] TRACE QueueDS - QueueDS$queueHead.<init>(QueueDS.java:469) Entering 
+2022-02-09 16:38:08,241 [main] DEBUG QueueDS - QueueDS$queueHead.<init>(QueueDS.java:470) Creating empty queue head.
+2022-02-09 16:38:08,241 [main] TRACE QueueDS - QueueDS$queueHead.<init>(QueueDS.java:474) Exiting 
+2022-02-09 16:38:08,241 [main] TRACE BinaryDS - <init>(BinaryDS.java:55) Exiting 
+2022-02-09 16:38:08,242 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:25) Creating AVL Tree. Setting root to null.
+2022-02-09 16:38:08,243 [main] TRACE AVLTreeDS - AVLTreeDS$Node.<init>(AVLTreeDS.java:120) Entering 
+2022-02-09 16:38:08,243 [main] TRACE AVLTreeDS - AVLTreeDS$Node.<init>(AVLTreeDS.java:124) Exiting 
+2022-02-09 16:38:08,244 [main] TRACE AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:36) Entering 
+2022-02-09 16:38:08,244 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:40) root is null. Inserting root for tree.
+2022-02-09 16:38:08,244 [main] TRACE AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:45) Exiting 
+2022-02-09 16:38:08,244 [main] TRACE dataStructures - main(dataStructures.java:36) Exiting 
+2022-02-09 16:38:18,687 [main] TRACE dataStructures - main(dataStructures.java:26) Entering 
+2022-02-09 16:38:18,690 [main] TRACE BinaryDS - <init>(BinaryDS.java:46) Entering 
+2022-02-09 16:38:18,691 [main] INFO  BinaryDS - <init>(BinaryDS.java:48) Creating Binary Search Tree (BST). Childeren to the left are less than the root, and greater on the right.
+2022-02-09 16:38:18,693 [main] TRACE QueueDS - createQueue(QueueDS.java:40) Entering 
+2022-02-09 16:38:18,701 [main] DEBUG QueueDS - createQueue(QueueDS.java:41) Creating new queue... 
+2022-02-09 16:38:18,702 [main] TRACE QueueDS - createQueue(QueueDS.java:42) Exiting 
+2022-02-09 16:38:18,705 [main] TRACE QueueDS - QueueDS$Queue.<init>(QueueDS.java:341) Entering 
+2022-02-09 16:38:18,705 [main] TRACE QueueDS - QueueDS$Queue.<init>(QueueDS.java:342) Exiting 
+2022-02-09 16:38:18,706 [main] TRACE QueueDS - QueueDS$queueHead.<init>(QueueDS.java:469) Entering 
+2022-02-09 16:38:18,708 [main] DEBUG QueueDS - QueueDS$queueHead.<init>(QueueDS.java:470) Creating empty queue head.
+2022-02-09 16:38:18,709 [main] TRACE QueueDS - QueueDS$queueHead.<init>(QueueDS.java:474) Exiting 
+2022-02-09 16:38:18,712 [main] TRACE BinaryDS - <init>(BinaryDS.java:55) Exiting 
+2022-02-09 16:38:18,715 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:25) Creating AVL Tree. Setting root to null.
+2022-02-09 16:38:18,718 [main] TRACE AVLTreeDS - AVLTreeDS$Node.<init>(AVLTreeDS.java:120) Entering 
+2022-02-09 16:38:18,719 [main] TRACE AVLTreeDS - AVLTreeDS$Node.<init>(AVLTreeDS.java:124) Exiting 
+2022-02-09 16:38:18,720 [main] TRACE AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:36) Entering 
+2022-02-09 16:38:18,721 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:40) root is null. Inserting root for tree.
+2022-02-09 16:38:18,721 [main] TRACE AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:45) Exiting 
+2022-02-09 16:38:18,723 [main] TRACE dataStructures - main(dataStructures.java:36) Exiting 
+2022-02-09 16:44:01,819 [main] TRACE dataStructures - main(dataStructures.java:26) Entering 
+2022-02-09 16:44:01,821 [main] TRACE BinaryDS - <init>(BinaryDS.java:46) Entering 
+2022-02-09 16:44:01,824 [main] INFO  BinaryDS - <init>(BinaryDS.java:48) Creating Binary Search Tree (BST). Childeren to the left are less than the root, and greater on the right.
+2022-02-09 16:44:01,826 [main] TRACE QueueDS - createQueue(QueueDS.java:40) Entering 
+2022-02-09 16:44:01,828 [main] DEBUG QueueDS - createQueue(QueueDS.java:41) Creating new queue... 
+2022-02-09 16:44:01,831 [main] TRACE QueueDS - createQueue(QueueDS.java:42) Exiting 
+2022-02-09 16:44:01,834 [main] TRACE QueueDS - QueueDS$Queue.<init>(QueueDS.java:341) Entering 
+2022-02-09 16:44:01,835 [main] TRACE QueueDS - QueueDS$Queue.<init>(QueueDS.java:342) Exiting 
+2022-02-09 16:44:01,837 [main] TRACE QueueDS - QueueDS$queueHead.<init>(QueueDS.java:469) Entering 
+2022-02-09 16:44:01,841 [main] DEBUG QueueDS - QueueDS$queueHead.<init>(QueueDS.java:470) Creating empty queue head.
+2022-02-09 16:44:01,843 [main] TRACE QueueDS - QueueDS$queueHead.<init>(QueueDS.java:474) Exiting 
+2022-02-09 16:44:01,845 [main] TRACE BinaryDS - <init>(BinaryDS.java:55) Exiting 
+2022-02-09 16:44:01,848 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:25) Creating AVL Tree. Setting root to null.
+2022-02-09 16:44:01,854 [main] TRACE AVLTreeDS - AVLTreeDS$Node.<init>(AVLTreeDS.java:124) Entering 
+2022-02-09 16:44:01,855 [main] TRACE AVLTreeDS - AVLTreeDS$Node.<init>(AVLTreeDS.java:128) Exiting 
+2022-02-09 16:44:01,856 [main] TRACE AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:36) Entering 
+2022-02-09 16:44:01,858 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:40) root is null. Inserting root for tree.
+2022-02-09 16:44:01,860 [main] TRACE AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:45) Exiting 
+2022-02-09 16:44:01,860 [main] TRACE BinaryDS - getRootNode(BinaryDS.java:119) Entering 
+2022-02-09 16:44:01,861 [main] DEBUG BinaryDS - getRootNode(BinaryDS.java:120) Returning root node:  null
+2022-02-09 16:44:01,863 [main] TRACE BinaryDS - getRootNode(BinaryDS.java:121) Exiting 
+2022-02-09 16:44:01,863 [main] TRACE BinaryDS - convertToParen(BinaryDS.java:294) Entering 
+2022-02-09 16:49:16,411 [main] TRACE dataStructures - main(dataStructures.java:26) Entering 
+2022-02-09 16:49:16,413 [main] TRACE BinaryDS - <init>(BinaryDS.java:46) Entering 
+2022-02-09 16:49:16,413 [main] INFO  BinaryDS - <init>(BinaryDS.java:48) Creating Binary Search Tree (BST). Childeren to the left are less than the root, and greater on the right.
+2022-02-09 16:49:16,415 [main] TRACE QueueDS - createQueue(QueueDS.java:40) Entering 
+2022-02-09 16:49:16,415 [main] DEBUG QueueDS - createQueue(QueueDS.java:41) Creating new queue... 
+2022-02-09 16:49:16,416 [main] TRACE QueueDS - createQueue(QueueDS.java:42) Exiting 
+2022-02-09 16:49:16,420 [main] TRACE QueueDS - QueueDS$Queue.<init>(QueueDS.java:341) Entering 
+2022-02-09 16:49:16,421 [main] TRACE QueueDS - QueueDS$Queue.<init>(QueueDS.java:342) Exiting 
+2022-02-09 16:49:16,423 [main] TRACE QueueDS - QueueDS$queueHead.<init>(QueueDS.java:469) Entering 
+2022-02-09 16:49:16,424 [main] DEBUG QueueDS - QueueDS$queueHead.<init>(QueueDS.java:470) Creating empty queue head.
+2022-02-09 16:49:16,424 [main] TRACE QueueDS - QueueDS$queueHead.<init>(QueueDS.java:474) Exiting 
+2022-02-09 16:49:16,426 [main] TRACE BinaryDS - <init>(BinaryDS.java:55) Exiting 
+2022-02-09 16:49:16,427 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:25) Creating AVL Tree. Setting root to null.
+2022-02-09 16:49:16,428 [main] TRACE AVLTreeDS - AVLTreeDS$Node.<init>(AVLTreeDS.java:124) Entering 
+2022-02-09 16:49:16,428 [main] TRACE AVLTreeDS - AVLTreeDS$Node.<init>(AVLTreeDS.java:128) Exiting 
+2022-02-09 16:49:16,429 [main] TRACE AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:36) Entering 
+2022-02-09 16:49:16,430 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:40) root is null. Inserting root for tree.
+2022-02-09 16:49:16,431 [main] TRACE AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:45) Exiting 
+2022-02-09 16:49:16,431 [main] TRACE dataStructures - main(dataStructures.java:36) Exiting 
+2022-02-09 16:50:38,022 [main] TRACE dataStructures - main(dataStructures.java:26) Entering 
+2022-02-09 16:50:38,025 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:25) Creating AVL Tree. Setting root to null.
+2022-02-09 16:50:38,027 [main] TRACE AVLTreeDS - AVLTreeDS$Node.<init>(AVLTreeDS.java:124) Entering 
+2022-02-09 16:50:38,028 [main] TRACE AVLTreeDS - AVLTreeDS$Node.<init>(AVLTreeDS.java:128) Exiting 
+2022-02-09 16:50:38,029 [main] TRACE AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:36) Entering 
+2022-02-09 16:50:38,031 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:40) root is null. Inserting root for tree.
+2022-02-09 16:50:38,032 [main] TRACE AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:45) Exiting 
+2022-02-09 16:50:38,037 [main] TRACE dataStructures - main(dataStructures.java:36) Exiting 
+2022-02-09 16:54:52,254 [main] TRACE dataStructures - main(dataStructures.java:26) Entering 
+2022-02-09 16:54:52,255 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:25) Creating AVL Tree. Setting root to null.
+2022-02-09 16:54:52,256 [main] TRACE AVLTreeDS - AVLTreeDS$Node.<init>(AVLTreeDS.java:124) Entering 
+2022-02-09 16:54:52,256 [main] TRACE AVLTreeDS - AVLTreeDS$Node.<init>(AVLTreeDS.java:128) Exiting 
+2022-02-09 16:54:52,257 [main] TRACE AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:36) Entering 
+2022-02-09 16:54:52,257 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:40) root is null. Inserting root for tree.
+2022-02-09 16:54:52,257 [main] TRACE AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:45) Exiting 
+2022-02-09 16:54:52,257 [main] TRACE dataStructures - main(dataStructures.java:36) Exiting 
+2022-02-09 16:55:34,992 [main] TRACE dataStructures - main(dataStructures.java:26) Entering 
+2022-02-09 16:55:34,994 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:25) Creating AVL Tree. Setting root to null.
+2022-02-09 16:55:34,995 [main] TRACE AVLTreeDS - AVLTreeDS$Node.<init>(AVLTreeDS.java:124) Entering 
+2022-02-09 16:55:34,995 [main] TRACE AVLTreeDS - AVLTreeDS$Node.<init>(AVLTreeDS.java:128) Exiting 
+2022-02-09 16:55:34,995 [main] TRACE AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:36) Entering 
+2022-02-09 16:55:34,996 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:40) root is null. Inserting root for tree.
+2022-02-09 16:55:34,996 [main] TRACE AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:45) Exiting 
+2022-02-09 16:55:34,996 [main] TRACE dataStructures - main(dataStructures.java:36) Exiting 
+2022-02-09 16:56:02,616 [main] TRACE dataStructures - main(dataStructures.java:26) Entering 
+2022-02-09 16:56:02,619 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:25) Creating AVL Tree. Setting root to null.
+2022-02-09 16:56:02,620 [main] TRACE AVLTreeDS - AVLTreeDS$Node.<init>(AVLTreeDS.java:124) Entering 
+2022-02-09 16:56:02,621 [main] TRACE AVLTreeDS - AVLTreeDS$Node.<init>(AVLTreeDS.java:128) Exiting 
+2022-02-09 16:56:02,622 [main] TRACE AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:36) Entering 
+2022-02-09 16:56:02,624 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:40) root is null. Inserting root for tree.
+2022-02-09 16:56:02,625 [main] TRACE AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:45) Exiting 
+2022-02-09 16:56:02,626 [main] TRACE AVLTreeDS - AVLTreeDS$Node.<init>(AVLTreeDS.java:124) Entering 
+2022-02-09 16:56:02,627 [main] TRACE AVLTreeDS - AVLTreeDS$Node.<init>(AVLTreeDS.java:128) Exiting 
+2022-02-09 16:56:02,628 [main] TRACE AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:36) Entering 
+2022-02-09 16:56:02,633 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:40) root is null. Inserting root for tree.
+2022-02-09 16:56:02,634 [main] TRACE AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:45) Exiting 
+2022-02-09 16:56:02,635 [main] TRACE dataStructures - main(dataStructures.java:36) Exiting 
+2022-02-09 17:03:21,922 [main] TRACE dataStructures - main(dataStructures.java:26) Entering 
+2022-02-09 17:03:21,924 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:25) Creating AVL Tree. Setting root to null.
+2022-02-09 17:03:21,924 [main] INFO  AVLTreeDS - AVLInsert(AVLTreeDS.java:33) root is null. Inserting root for tree.
+2022-02-09 17:03:21,926 [main] TRACE AVLTreeDS - AVLTreeDS$Node.<init>(AVLTreeDS.java:134) Entering 
+2022-02-09 17:03:21,927 [main] TRACE AVLTreeDS - AVLTreeDS$Node.<init>(AVLTreeDS.java:138) Exiting 
+2022-02-09 17:03:21,927 [main] TRACE AVLTreeDS - AVLInsert(AVLTreeDS.java:37) Exiting 
+2022-02-09 17:03:21,928 [main] TRACE AVLTreeDS - AVLTreeDS$Node.<init>(AVLTreeDS.java:134) Entering 
+2022-02-09 17:03:21,929 [main] TRACE AVLTreeDS - AVLTreeDS$Node.<init>(AVLTreeDS.java:138) Exiting 
+2022-02-09 17:03:21,930 [main] TRACE AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:46) Entering 
+2022-02-09 17:03:21,930 [main] TRACE AVLTreeDS - AVLTreeDS$Node.getData(AVLTreeDS.java:154) Entering 
+2022-02-09 17:03:21,931 [main] TRACE AVLTreeDS - AVLTreeDS$Node.getData(AVLTreeDS.java:155) Exiting 
+2022-02-09 17:03:21,931 [main] TRACE AVLTreeDS - AVLTreeDS$Node.getData(AVLTreeDS.java:154) Entering 
+2022-02-09 17:03:21,931 [main] TRACE AVLTreeDS - AVLTreeDS$Node.getData(AVLTreeDS.java:155) Exiting 
+2022-02-09 17:03:21,932 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:91) Node being inserted is greater than or equal to current node. Setting right subtree. 
+2022-02-09 17:03:21,934 [main] TRACE AVLTreeDS - AVLTreeDS$Node.getRightSubTree(AVLTreeDS.java:175) Entering 
+2022-02-09 17:03:21,934 [main] DEBUG AVLTreeDS - AVLTreeDS$Node.getRightSubTree(AVLTreeDS.java:176) Returning Right Tree Node : null
+2022-02-09 17:03:21,934 [main] TRACE AVLTreeDS - AVLTreeDS$Node.getRightSubTree(AVLTreeDS.java:177) Exiting 
+2022-02-09 17:03:21,934 [main] TRACE AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:46) Entering 
+2022-02-09 17:03:21,934 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:50) root is null. Inserting root for tree.
+2022-02-09 17:03:21,934 [main] TRACE AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:55) Exiting 
+2022-02-09 17:03:21,935 [main] TRACE AVLTreeDS - AVLTreeDS$Node.setRightSubTree(AVLTreeDS.java:182) Entering 
+2022-02-09 17:03:21,935 [main] DEBUG AVLTreeDS - AVLTreeDS$Node.setRightSubTree(AVLTreeDS.java:183) Setting right node to : AVLTreeDS$Node@368239c8
+2022-02-09 17:03:21,935 [main] TRACE AVLTreeDS - AVLTreeDS$Node.setRightSubTree(AVLTreeDS.java:184) Exiting 
+2022-02-09 17:03:21,935 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:96) Right subtree is taller. 
+2022-02-09 17:03:21,935 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:107) Tree is even high. Setting balance to right high (1) 
+2022-02-09 17:03:21,936 [main] TRACE AVLTreeDS - AVLTreeDS$Node.<init>(AVLTreeDS.java:134) Entering 
+2022-02-09 17:03:21,936 [main] TRACE AVLTreeDS - AVLTreeDS$Node.<init>(AVLTreeDS.java:138) Exiting 
+2022-02-09 17:03:21,936 [main] TRACE AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:46) Entering 
+2022-02-09 17:03:21,936 [main] TRACE AVLTreeDS - AVLTreeDS$Node.getData(AVLTreeDS.java:154) Entering 
+2022-02-09 17:03:21,937 [main] TRACE AVLTreeDS - AVLTreeDS$Node.getData(AVLTreeDS.java:155) Exiting 
+2022-02-09 17:03:21,937 [main] TRACE AVLTreeDS - AVLTreeDS$Node.getData(AVLTreeDS.java:154) Entering 
+2022-02-09 17:03:21,937 [main] TRACE AVLTreeDS - AVLTreeDS$Node.getData(AVLTreeDS.java:155) Exiting 
+2022-02-09 17:03:21,937 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:91) Node being inserted is greater than or equal to current node. Setting right subtree. 
+2022-02-09 17:03:21,938 [main] TRACE AVLTreeDS - AVLTreeDS$Node.getRightSubTree(AVLTreeDS.java:175) Entering 
+2022-02-09 17:03:21,938 [main] DEBUG AVLTreeDS - AVLTreeDS$Node.getRightSubTree(AVLTreeDS.java:176) Returning Right Tree Node : null
+2022-02-09 17:03:21,938 [main] TRACE AVLTreeDS - AVLTreeDS$Node.getRightSubTree(AVLTreeDS.java:177) Exiting 
+2022-02-09 17:03:21,940 [main] TRACE AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:46) Entering 
+2022-02-09 17:03:21,941 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:50) root is null. Inserting root for tree.
+2022-02-09 17:03:21,944 [main] TRACE AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:55) Exiting 
+2022-02-09 17:03:21,944 [main] TRACE AVLTreeDS - AVLTreeDS$Node.setRightSubTree(AVLTreeDS.java:182) Entering 
+2022-02-09 17:03:21,945 [main] DEBUG AVLTreeDS - AVLTreeDS$Node.setRightSubTree(AVLTreeDS.java:183) Setting right node to : AVLTreeDS$Node@9e89d68
+2022-02-09 17:03:21,945 [main] TRACE AVLTreeDS - AVLTreeDS$Node.setRightSubTree(AVLTreeDS.java:184) Exiting 
+2022-02-09 17:03:21,945 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:96) Right subtree is taller. 
+2022-02-09 17:03:21,945 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:107) Tree is even high. Setting balance to right high (1) 
+2022-02-09 17:03:21,946 [main] TRACE dataStructures - main(dataStructures.java:36) Exiting 
