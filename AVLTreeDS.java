@@ -121,7 +121,7 @@ public class AVLTreeDS //extends BinaryDS
 		}		
 	}
 
-	private <T extends Comparable<T>> void rotateLeft(Node root, boolean taller)
+	private <T extends Comparable<T>> Node leftBalance(Node root, boolean taller)
 	{
 		logger.trace(getCurrentMethodName() + " Entering ");
 
@@ -166,12 +166,50 @@ public class AVLTreeDS //extends BinaryDS
 				}
 				else
 				{
-					//TODO: FINISH THIS.
+					logger.info(getCurrentMethodName() + " rightTree balance is right-high (1)");
+					//- LH = Left High (-1): EH = Even High (0): RH = Right High (1)
+					logger.info(getCurrentMethodName() + " Setting root : " + root + " to Even High (0)");
+					root.setBal(0);
+					logger.info(getCurrentMethodName() + " Setting left node  " + leftTree + " balance to left high (-1)");
+					leftTree.setBal(-1);
 				}
 
+				logger.info(getCurrentMethodName() + " Setting right node  " + rightTree + " balance to even high (0)");
+				rightTree.setBal(0);
+				logger.info(getCurrentMethodName() + " Setting Left Subtree " + leftTree + " to rotateLeft");
+				root.setLeftSubTree(rotateLeft(leftTree));
+
+				logger.info(getCurrentMethodName() + " Setting root " + root + " to rotateRight");
+				root = rotateRight(root);
+
+				logger.info(getCurrentMethodName() + " Setting root taller to false");
+				taller = false;
 		}
 		
 		logger.trace(getCurrentMethodName() + " Exiting ");
+
+		return root;
+	}
+
+	private <T extends Comparable<T>> Node rotateRight(Node root)
+	{
+	    logger.info(getCurrentMethodName() + " root node passed in : " + root);
+		logger.info(getCurrentMethodName() + " Setting tempPtr to " + root + " (root) to left node " + root.getLeftSubTree());
+		Node tempPtr = root.getLeftSubTree();
+
+		root.setLeftSubTree(tempPtr.getRightSubTree());
+		tempPtr.setRightSubTree(root);
+
+		logger.trace(getCurrentMethodName() + " Exiting " + tempPtr);
+		return tempPtr;
+	}
+
+	private <T extends Comparable<T>> Node rotateLeft(Node root)
+	{
+		Node tempPtr = root.getRightSubTree();
+		root.setRightSubTree(tempPtr.getLeftSubTree());
+		tempPtr.setLeftSubTree(root);
+		return tempPtr;
 	}
 
     class Node

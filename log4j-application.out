@@ -258,3 +258,104 @@
 2022-02-09 17:03:21,945 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:96) Right subtree is taller. 
 2022-02-09 17:03:21,945 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:107) Tree is even high. Setting balance to right high (1) 
 2022-02-09 17:03:21,946 [main] TRACE dataStructures - main(dataStructures.java:36) Exiting 
+2022-02-10 11:18:23,737 [main] TRACE dataStructures - main(dataStructures.java:26) Entering 
+2022-02-10 11:18:23,739 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:25) Creating AVL Tree. Setting root to null.
+2022-02-10 11:18:23,739 [main] TRACE AVLTreeDS - AVLInsert(AVLTreeDS.java:31) Entering 
+2022-02-10 11:18:23,739 [main] INFO  AVLTreeDS - AVLInsert(AVLTreeDS.java:35) root is null. Inserting root for tree.
+2022-02-10 11:18:23,740 [main] TRACE AVLTreeDS - AVLTreeDS$Node.<init>(AVLTreeDS.java:213) Entering 
+2022-02-10 11:18:23,740 [main] TRACE AVLTreeDS - AVLTreeDS$Node.<init>(AVLTreeDS.java:217) Exiting 
+2022-02-10 11:18:23,740 [main] TRACE AVLTreeDS - AVLInsert(AVLTreeDS.java:39) Exiting 
+2022-02-10 11:18:23,740 [main] TRACE AVLTreeDS - AVLTreeDS$Node.<init>(AVLTreeDS.java:213) Entering 
+2022-02-10 11:18:23,740 [main] TRACE AVLTreeDS - AVLTreeDS$Node.<init>(AVLTreeDS.java:217) Exiting 
+2022-02-10 11:18:23,740 [main] TRACE AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:49) Entering 
+2022-02-10 11:18:23,741 [main] TRACE AVLTreeDS - AVLTreeDS$Node.getData(AVLTreeDS.java:233) Entering 
+2022-02-10 11:18:23,741 [main] TRACE AVLTreeDS - AVLTreeDS$Node.getData(AVLTreeDS.java:234) Exiting 
+2022-02-10 11:18:23,741 [main] TRACE AVLTreeDS - AVLTreeDS$Node.getData(AVLTreeDS.java:233) Entering 
+2022-02-10 11:18:23,741 [main] TRACE AVLTreeDS - AVLTreeDS$Node.getData(AVLTreeDS.java:234) Exiting 
+2022-02-10 11:18:23,741 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:94) Node being inserted is greater than or equal to current node. Setting right subtree. 
+2022-02-10 11:18:23,741 [main] TRACE AVLTreeDS - AVLTreeDS$Node.getRightSubTree(AVLTreeDS.java:254) Entering 
+2022-02-10 11:18:23,741 [main] DEBUG AVLTreeDS - AVLTreeDS$Node.getRightSubTree(AVLTreeDS.java:255) Returning Right Tree Node : null
+2022-02-10 11:18:23,741 [main] TRACE AVLTreeDS - AVLTreeDS$Node.getRightSubTree(AVLTreeDS.java:256) Exiting 
+2022-02-10 11:18:23,741 [main] TRACE AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:49) Entering 
+2022-02-10 11:18:23,741 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:53) root is null. Inserting root for tree.
+2022-02-10 11:18:23,742 [main] TRACE AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:58) Exiting 
+2022-02-10 11:18:23,742 [main] TRACE AVLTreeDS - AVLTreeDS$Node.setRightSubTree(AVLTreeDS.java:261) Entering 
+2022-02-10 11:18:23,742 [main] DEBUG AVLTreeDS - AVLTreeDS$Node.setRightSubTree(AVLTreeDS.java:262) Setting right node to : AVLTreeDS$Node@6aaa5eb0
+2022-02-10 11:18:23,742 [main] TRACE AVLTreeDS - AVLTreeDS$Node.setRightSubTree(AVLTreeDS.java:263) Exiting 
+2022-02-10 11:18:23,742 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:99) Right subtree is taller. 
+2022-02-10 11:18:23,742 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:110) Tree is even high. Setting balance to right high (1) 
+2022-02-10 11:18:23,742 [main] TRACE AVLTreeDS - AVLInsert(AVLTreeDS.java:44) Exiting 
+2022-02-10 11:18:23,743 [main] TRACE AVLTreeDS - AVLInsert(AVLTreeDS.java:31) Entering 
+2022-02-10 11:18:23,743 [main] TRACE AVLTreeDS - AVLTreeDS$Node.<init>(AVLTreeDS.java:213) Entering 
+2022-02-10 11:18:23,743 [main] TRACE AVLTreeDS - AVLTreeDS$Node.<init>(AVLTreeDS.java:217) Exiting 
+2022-02-10 11:18:23,743 [main] TRACE AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:49) Entering 
+2022-02-10 11:18:23,743 [main] TRACE AVLTreeDS - AVLTreeDS$Node.getData(AVLTreeDS.java:233) Entering 
+2022-02-10 11:18:23,744 [main] TRACE AVLTreeDS - AVLTreeDS$Node.getData(AVLTreeDS.java:234) Exiting 
+2022-02-10 11:18:23,744 [main] TRACE AVLTreeDS - AVLTreeDS$Node.getData(AVLTreeDS.java:233) Entering 
+2022-02-10 11:18:23,744 [main] TRACE AVLTreeDS - AVLTreeDS$Node.getData(AVLTreeDS.java:234) Exiting 
+2022-02-10 11:18:23,744 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:94) Node being inserted is greater than or equal to current node. Setting right subtree. 
+2022-02-10 11:18:23,744 [main] TRACE AVLTreeDS - AVLTreeDS$Node.getRightSubTree(AVLTreeDS.java:254) Entering 
+2022-02-10 11:18:23,744 [main] DEBUG AVLTreeDS - AVLTreeDS$Node.getRightSubTree(AVLTreeDS.java:255) Returning Right Tree Node : null
+2022-02-10 11:18:23,744 [main] TRACE AVLTreeDS - AVLTreeDS$Node.getRightSubTree(AVLTreeDS.java:256) Exiting 
+2022-02-10 11:18:23,744 [main] TRACE AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:49) Entering 
+2022-02-10 11:18:23,745 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:53) root is null. Inserting root for tree.
+2022-02-10 11:18:23,745 [main] TRACE AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:58) Exiting 
+2022-02-10 11:18:23,745 [main] TRACE AVLTreeDS - AVLTreeDS$Node.setRightSubTree(AVLTreeDS.java:261) Entering 
+2022-02-10 11:18:23,745 [main] DEBUG AVLTreeDS - AVLTreeDS$Node.setRightSubTree(AVLTreeDS.java:262) Setting right node to : AVLTreeDS$Node@3498ed
+2022-02-10 11:18:23,745 [main] TRACE AVLTreeDS - AVLTreeDS$Node.setRightSubTree(AVLTreeDS.java:263) Exiting 
+2022-02-10 11:18:23,746 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:99) Right subtree is taller. 
+2022-02-10 11:18:23,746 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:110) Tree is even high. Setting balance to right high (1) 
+2022-02-10 11:18:23,746 [main] TRACE AVLTreeDS - AVLInsert(AVLTreeDS.java:44) Exiting 
+2022-02-10 11:18:23,746 [main] TRACE dataStructures - main(dataStructures.java:36) Exiting 
+2022-02-10 11:20:01,296 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:25) Creating AVL Tree. Setting root to null.
+2022-02-10 11:20:01,297 [main] INFO  AVLTreeDS - AVLInsert(AVLTreeDS.java:35) root is null. Inserting root for tree.
+2022-02-10 11:20:01,299 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:94) Node being inserted is greater than or equal to current node. Setting right subtree. 
+2022-02-10 11:20:01,300 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:53) root is null. Inserting root for tree.
+2022-02-10 11:20:01,300 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:99) Right subtree is taller. 
+2022-02-10 11:20:01,300 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:110) Tree is even high. Setting balance to right high (1) 
+2022-02-10 11:20:01,301 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:94) Node being inserted is greater than or equal to current node. Setting right subtree. 
+2022-02-10 11:20:01,301 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:53) root is null. Inserting root for tree.
+2022-02-10 11:20:01,301 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:99) Right subtree is taller. 
+2022-02-10 11:20:01,301 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:110) Tree is even high. Setting balance to right high (1) 
+2022-02-10 15:57:32,990 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:25) Creating AVL Tree. Setting root to null.
+2022-02-10 15:57:32,991 [main] INFO  AVLTreeDS - AVLInsert(AVLTreeDS.java:35) root is null. Inserting root for tree.
+2022-02-10 15:57:32,992 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:94) Node being inserted is greater than or equal to current node. Setting right subtree. 
+2022-02-10 15:57:32,993 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:53) root is null. Inserting root for tree.
+2022-02-10 15:57:32,993 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:99) Right subtree is taller. 
+2022-02-10 15:57:32,993 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:110) Tree is even high. Setting balance to right high (1) 
+2022-02-10 15:57:32,994 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:94) Node being inserted is greater than or equal to current node. Setting right subtree. 
+2022-02-10 15:57:32,994 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:53) root is null. Inserting root for tree.
+2022-02-10 15:57:32,994 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:99) Right subtree is taller. 
+2022-02-10 15:57:32,994 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:110) Tree is even high. Setting balance to right high (1) 
+2022-02-11 15:30:25,322 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:25) Creating AVL Tree. Setting root to null.
+2022-02-11 15:30:25,323 [main] INFO  AVLTreeDS - AVLInsert(AVLTreeDS.java:35) root is null. Inserting root for tree.
+2022-02-11 15:30:25,325 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:94) Node being inserted is greater than or equal to current node. Setting right subtree. 
+2022-02-11 15:30:25,326 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:53) root is null. Inserting root for tree.
+2022-02-11 15:30:25,326 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:99) Right subtree is taller. 
+2022-02-11 15:30:25,326 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:110) Tree is even high. Setting balance to right high (1) 
+2022-02-11 15:30:25,327 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:94) Node being inserted is greater than or equal to current node. Setting right subtree. 
+2022-02-11 15:30:25,328 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:53) root is null. Inserting root for tree.
+2022-02-11 15:30:25,328 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:99) Right subtree is taller. 
+2022-02-11 15:30:25,328 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:110) Tree is even high. Setting balance to right high (1) 
+2022-02-11 15:30:52,014 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:25) Creating AVL Tree. Setting root to null.
+2022-02-11 15:30:52,014 [main] INFO  AVLTreeDS - AVLInsert(AVLTreeDS.java:35) root is null. Inserting root for tree.
+2022-02-11 15:30:52,016 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:94) Node being inserted is greater than or equal to current node. Setting right subtree. 
+2022-02-11 15:30:52,016 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:53) root is null. Inserting root for tree.
+2022-02-11 15:30:52,017 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:99) Right subtree is taller. 
+2022-02-11 15:30:52,017 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:110) Tree is even high. Setting balance to right high (1) 
+2022-02-11 15:30:52,018 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:94) Node being inserted is greater than or equal to current node. Setting right subtree. 
+2022-02-11 15:30:52,018 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:53) root is null. Inserting root for tree.
+2022-02-11 15:30:52,018 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:99) Right subtree is taller. 
+2022-02-11 15:30:52,018 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:110) Tree is even high. Setting balance to right high (1) 
+2022-02-11 15:30:52,019 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:64) Node being inserted is less than current node. Setting left subtree.
+2022-02-11 15:30:52,019 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:53) root is null. Inserting root for tree.
+2022-02-11 15:30:52,019 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:69) Left subtree is taller. 
+2022-02-11 15:30:52,020 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:78) Tree is even high. Setting balance to left high (-1) 
+2022-02-11 15:30:52,020 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:64) Node being inserted is less than current node. Setting left subtree.
+2022-02-11 15:30:52,020 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:53) root is null. Inserting root for tree.
+2022-02-11 15:30:52,021 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:69) Left subtree is taller. 
+2022-02-11 15:30:52,021 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:78) Tree is even high. Setting balance to left high (-1) 
+2022-02-11 15:30:52,021 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:64) Node being inserted is less than current node. Setting left subtree.
+2022-02-11 15:30:52,022 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:53) root is null. Inserting root for tree.
+2022-02-11 15:30:52,022 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:69) Left subtree is taller. 
+2022-02-11 15:30:52,022 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:78) Tree is even high. Setting balance to left high (-1) 
