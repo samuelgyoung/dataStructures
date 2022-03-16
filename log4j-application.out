@@ -359,3 +359,17 @@
 2022-02-11 15:30:52,022 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:53) root is null. Inserting root for tree.
 2022-02-11 15:30:52,022 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:69) Left subtree is taller. 
 2022-02-11 15:30:52,022 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:78) Tree is even high. Setting balance to left high (-1) 
+2022-03-16 14:10:46,330 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:25) Creating AVL Tree. Setting root to null.
+2022-03-16 14:10:46,334 [main] INFO  AVLTreeDS - AVLInsert(AVLTreeDS.java:35) root is null. Inserting root for tree.
+2022-03-16 14:10:46,335 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:94) Node being inserted is greater than or equal to current node. Setting right subtree. 
+2022-03-16 14:10:46,336 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:53) root is null. Inserting root for tree.
+2022-03-16 14:10:46,336 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:99) Right subtree is taller. 
+2022-03-16 14:10:46,336 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:110) Tree is even high. Setting balance to right high (1) 
+2022-03-16 14:10:46,337 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:94) Node being inserted is greater than or equal to current node. Setting right subtree. 
+2022-03-16 14:10:46,337 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:53) root is null. Inserting root for tree.
+2022-03-16 14:10:46,338 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:99) Right subtree is taller. 
+2022-03-16 14:10:46,338 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:110) Tree is even high. Setting balance to right high (1) 
+2022-03-16 14:10:46,338 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:64) Node being inserted is less than current node. Setting left subtree.
+2022-03-16 14:10:46,339 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:53) root is null. Inserting root for tree.
+2022-03-16 14:10:46,339 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:69) Left subtree is taller. 
+2022-03-16 14:10:46,340 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:78) Tree is even high. Setting balance to left high (-1) 
