@@ -121,6 +121,15 @@ public class AVLTreeDS //extends BinaryDS
 		}		
 	}
  
+	//TODO: FINISH THIS METHOD
+	private <T extends Comparable<T>> Node rightBalance(Node root, boolean taller)
+	{
+		logger.trace(getCurrentMethodName() + " Entering ");
+
+		logger.trace(getCurrentMethodName() + " Exiting ");
+		return root;
+	}
+
 	private <T extends Comparable<T>> Node leftBalance(Node root, boolean taller)
 	{
 		logger.trace(getCurrentMethodName() + " Entering ");
@@ -134,7 +143,7 @@ public class AVLTreeDS //extends BinaryDS
 			logger.info(getCurrentMethodName() + " left node of root : " + leftTree + " is left high (-1)");
 			logger.info(getCurrentMethodName() + " Rotating root " + root + " node right.");
 
-			//rotateRight(root);
+			rotateRight(root);
 			logger.info(getCurrentMethodName() + " Setting root : " + root + " to even high.");
 			root.setBal(0);
 			logger.info(getCurrentMethodName() + " Setting roots left node : " + leftTree + " to even high.");
