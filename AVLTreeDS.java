@@ -120,7 +120,7 @@ public class AVLTreeDS //extends BinaryDS
 			return newNode;
 		}		
 	}
-
+ 
 	private <T extends Comparable<T>> Node leftBalance(Node root, boolean taller)
 	{
 		logger.trace(getCurrentMethodName() + " Entering ");
