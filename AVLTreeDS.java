@@ -23,6 +23,9 @@ public class AVLTreeDS //extends BinaryDS
 	AVLTreeDS()
 	{
 		logger.info(getCurrentMethodName() + " Creating AVL Tree. Setting root to null.");
+		logger.info(getCurrentMethodName() + " Big O notation is O(log2n) vs O(n) from standard binary tree.");
+		logger.info(getCurrentMethodName() + " The constraint is : |HL - HR| <= 1");
+		logger.info(getCurrentMethodName() + " This is known as a Height Balanced Tree.");
 		this.rootNode = null;
 	}
 
@@ -113,7 +116,7 @@ public class AVLTreeDS //extends BinaryDS
 				else 
 				{
 					logger.info(getCurrentMethodName() + " Tree is right high (1). Running rightBalance algorithm on current root. ");
-					//root = rightBalance (root, taller);
+					root = rightBalance (root, taller);
 				}
 			}
 
@@ -125,6 +128,18 @@ public class AVLTreeDS //extends BinaryDS
 	private <T extends Comparable<T>> Node rightBalance(Node root, boolean taller)
 	{
 		logger.trace(getCurrentMethodName() + " Entering ");
+		Node rightTree = root.getRightSubTree();
+
+		if(rightTree.getBal() == -1)
+		{
+			logger.info(getCurrentMethodName() + " !!!! Case 1: Left of left. Single rotation right.");
+			logger.info(getCurrentMethodName() + " !!!! left node of root : " + rightTree + " is left high (-1)");
+			logger.info(getCurrentMethodName() + " !!!! Rotating root " + root + " node right.");
+		}
+		else
+		{
+
+		}
 
 		logger.trace(getCurrentMethodName() + " Exiting ");
 		return root;
