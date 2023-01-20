@@ -387,3 +387,231 @@
 2022-03-16 15:42:17,794 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:53) root is null. Inserting root for tree.
 2022-03-16 15:42:17,794 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:69) Left subtree is taller. 
 2022-03-16 15:42:17,794 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:78) Tree is even high. Setting balance to left high (-1) 
+2022-05-03 10:48:01,853 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:26) Creating AVL Tree. Setting root to null.
+2022-05-03 10:48:01,854 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:27) Big O notation is O(log2n) vs O(n) from standard binary tree.
+2022-05-03 10:48:01,854 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:28) The constraint is : |HL - HR| <= 1
+2022-05-03 10:48:01,855 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:29) This is known as a Height Balanced Tree.
+2022-05-03 10:48:01,855 [main] INFO  AVLTreeDS - AVLInsert(AVLTreeDS.java:42) root is null. Inserting root for tree.
+2022-05-03 10:48:01,856 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:101) Node being inserted is greater than or equal to current node. Setting right subtree. 
+2022-05-03 10:48:01,857 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:60) root is null. Inserting root for tree.
+2022-05-03 10:48:01,857 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:106) Right subtree is taller. 
+2022-05-03 10:48:01,857 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:117) Tree is even high. Setting balance to right high (1) 
+2022-05-03 10:48:01,858 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:101) Node being inserted is greater than or equal to current node. Setting right subtree. 
+2022-05-03 10:48:01,858 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:60) root is null. Inserting root for tree.
+2022-05-03 10:48:01,859 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:106) Right subtree is taller. 
+2022-05-03 10:48:01,859 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:117) Tree is even high. Setting balance to right high (1) 
+2022-05-03 10:48:01,860 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:71) Node being inserted is less than current node. Setting left subtree.
+2022-05-03 10:48:01,860 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:60) root is null. Inserting root for tree.
+2022-05-03 10:48:01,860 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:76) Left subtree is taller. 
+2022-05-03 10:48:01,861 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:85) Tree is even high. Setting balance to left high (-1) 
+2022-05-03 10:49:44,816 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:26) Creating AVL Tree. Setting root to null.
+2022-05-03 10:49:44,817 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:27) Big O notation is O(log2n) vs O(n) from standard binary tree.
+2022-05-03 10:49:44,817 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:28) The constraint is : |HL - HR| <= 1
+2022-05-03 10:49:44,817 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:29) This is known as a Height Balanced Tree.
+2022-05-03 10:49:44,818 [main] INFO  AVLTreeDS - AVLInsert(AVLTreeDS.java:65) root is null. Inserting root for tree.
+2022-05-03 10:49:44,819 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:124) Node being inserted is greater than or equal to current node. Setting right subtree. 
+2022-05-03 10:49:44,819 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:83) root is null. Inserting root for tree.
+2022-05-03 10:49:44,820 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:129) Right subtree is taller. 
+2022-05-03 10:49:44,820 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:140) Tree is even high. Setting balance to right high (1) 
+2022-05-03 10:49:44,820 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:124) Node being inserted is greater than or equal to current node. Setting right subtree. 
+2022-05-03 10:49:44,820 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:83) root is null. Inserting root for tree.
+2022-05-03 10:49:44,820 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:129) Right subtree is taller. 
+2022-05-03 10:49:44,821 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:140) Tree is even high. Setting balance to right high (1) 
+2022-05-03 10:49:44,821 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:94) Node being inserted is less than current node. Setting left subtree.
+2022-05-03 10:49:44,821 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:83) root is null. Inserting root for tree.
+2022-05-03 10:49:44,821 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:99) Left subtree is taller. 
+2022-05-03 10:49:44,822 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:108) Tree is even high. Setting balance to left high (-1) 
+2022-05-03 10:50:12,086 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:26) Creating AVL Tree. Setting root to null.
+2022-05-03 10:50:12,098 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:27) Big O notation is O(log2n) vs O(n) from standard binary tree.
+2022-05-03 10:50:12,098 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:28) The constraint is : |HL - HR| <= 1
+2022-05-03 10:50:12,098 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:29) This is known as a Height Balanced Tree.
+2022-05-03 10:50:12,098 [main] INFO  AVLTreeDS - AVLInsert(AVLTreeDS.java:65) root is null. Inserting root for tree.
+2022-05-03 10:50:12,099 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:124) Node being inserted is greater than or equal to current node. Setting right subtree. 
+2022-05-03 10:50:12,100 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:83) root is null. Inserting root for tree.
+2022-05-03 10:50:12,100 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:129) Right subtree is taller. 
+2022-05-03 10:50:12,100 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:140) Tree is even high. Setting balance to right high (1) 
+2022-05-03 10:50:12,101 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:124) Node being inserted is greater than or equal to current node. Setting right subtree. 
+2022-05-03 10:50:12,101 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:83) root is null. Inserting root for tree.
+2022-05-03 10:50:12,101 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:129) Right subtree is taller. 
+2022-05-03 10:50:12,101 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:140) Tree is even high. Setting balance to right high (1) 
+2022-05-03 10:50:12,102 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:94) Node being inserted is less than current node. Setting left subtree.
+2022-05-03 10:50:12,102 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:83) root is null. Inserting root for tree.
+2022-05-03 10:50:12,102 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:99) Left subtree is taller. 
+2022-05-03 10:50:12,102 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:108) Tree is even high. Setting balance to left high (-1) 
+2022-05-03 10:54:34,172 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:26) Creating AVL Tree. Setting root to null.
+2022-05-03 10:54:34,172 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:27) Big O notation is O(log2n) vs O(n) from standard binary tree.
+2022-05-03 10:54:34,172 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:28) The constraint is : |HL - HR| <= 1
+2022-05-03 10:54:34,172 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:29) This is known as a Height Balanced Tree.
+2022-05-03 10:54:34,172 [main] INFO  AVLTreeDS - AVLInsert(AVLTreeDS.java:65) root is null. Inserting root for tree.
+2022-05-03 10:54:34,174 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:124) Node being inserted is greater than or equal to current node. Setting right subtree. 
+2022-05-03 10:54:34,174 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:83) root is null. Inserting root for tree.
+2022-05-03 10:54:34,174 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:129) Right subtree is taller. 
+2022-05-03 10:54:34,174 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:140) Tree is even high. Setting balance to right high (1) 
+2022-05-03 10:54:34,175 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:124) Node being inserted is greater than or equal to current node. Setting right subtree. 
+2022-05-03 10:54:34,175 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:83) root is null. Inserting root for tree.
+2022-05-03 10:54:34,175 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:129) Right subtree is taller. 
+2022-05-03 10:54:34,175 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:140) Tree is even high. Setting balance to right high (1) 
+2022-05-03 10:54:34,176 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:94) Node being inserted is less than current node. Setting left subtree.
+2022-05-03 10:54:34,176 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:83) root is null. Inserting root for tree.
+2022-05-03 10:54:34,176 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:99) Left subtree is taller. 
+2022-05-03 10:54:34,176 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:108) Tree is even high. Setting balance to left high (-1) 
+2022-05-03 10:54:52,664 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:26) Creating AVL Tree. Setting root to null.
+2022-05-03 10:54:52,665 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:27) Big O notation is O(log2n) vs O(n) from standard binary tree.
+2022-05-03 10:54:52,665 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:28) The constraint is : |HL - HR| <= 1
+2022-05-03 10:54:52,665 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:29) This is known as a Height Balanced Tree.
+2022-05-03 10:54:52,665 [main] INFO  AVLTreeDS - AVLInsert(AVLTreeDS.java:65) root is null. Inserting root for tree.
+2022-05-03 10:54:52,666 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:124) Node being inserted is greater than or equal to current node. Setting right subtree. 
+2022-05-03 10:54:52,666 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:83) root is null. Inserting root for tree.
+2022-05-03 10:54:52,667 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:129) Right subtree is taller. 
+2022-05-03 10:54:52,667 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:140) Tree is even high. Setting balance to right high (1) 
+2022-05-03 10:54:52,667 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:124) Node being inserted is greater than or equal to current node. Setting right subtree. 
+2022-05-03 10:54:52,667 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:83) root is null. Inserting root for tree.
+2022-05-03 10:54:52,667 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:129) Right subtree is taller. 
+2022-05-03 10:54:52,668 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:140) Tree is even high. Setting balance to right high (1) 
+2022-05-03 10:58:35,413 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:26) Creating AVL Tree. Setting root to null.
+2022-05-03 10:58:35,414 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:27) Big O notation is O(log2n) vs O(n) from standard binary tree.
+2022-05-03 10:58:35,414 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:28) The constraint is : |HL - HR| <= 1
+2022-05-03 10:58:35,414 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:29) This is known as a Height Balanced Tree.
+2022-05-03 10:58:35,414 [main] INFO  AVLTreeDS - AVLInsert(AVLTreeDS.java:65) root is null. Inserting root for tree.
+2022-05-03 10:58:35,415 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:124) Node being inserted is greater than or equal to current node. Setting right subtree. 
+2022-05-03 10:58:35,416 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:83) root is null. Inserting root for tree.
+2022-05-03 10:58:35,416 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:129) Right subtree is taller. 
+2022-05-03 10:58:35,416 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:140) Tree is even high. Setting balance to right high (1) 
+2022-05-03 10:58:35,416 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:124) Node being inserted is greater than or equal to current node. Setting right subtree. 
+2022-05-03 10:58:35,417 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:83) root is null. Inserting root for tree.
+2022-05-03 10:58:35,417 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:129) Right subtree is taller. 
+2022-05-03 10:58:35,417 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:140) Tree is even high. Setting balance to right high (1) 
+2022-05-03 10:58:35,417 [main] INFO  AVLTreeDS - convertToParen(AVLTreeDS.java:270) Node: 
+2022-05-03 11:25:28,459 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:26) Creating AVL Tree. Setting root to null.
+2022-05-03 11:25:28,461 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:27) Big O notation is O(log2n) vs O(n) from standard binary tree.
+2022-05-03 11:25:28,461 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:28) The constraint is : |HL - HR| <= 1
+2022-05-03 11:25:28,461 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:29) This is known as a Height Balanced Tree.
+2022-05-03 11:25:28,461 [main] INFO  AVLTreeDS - AVLInsert(AVLTreeDS.java:63) Inserting 5
+2022-05-03 11:25:28,461 [main] INFO  AVLTreeDS - AVLInsert(AVLTreeDS.java:67) root is null. Inserting root for tree.
+2022-05-03 11:25:28,463 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:126) Node being inserted is greater than or equal to current node. Setting right subtree. 
+2022-05-03 11:25:28,463 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:85) root is null. Inserting root for tree.
+2022-05-03 11:25:28,463 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:131) Right subtree is taller. 
+2022-05-03 11:25:28,463 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:142) Tree is even high. Setting balance to right high (1) 
+2022-05-03 11:25:28,463 [main] INFO  AVLTreeDS - AVLInsert(AVLTreeDS.java:63) Inserting 6
+2022-05-03 11:25:28,464 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:126) Node being inserted is greater than or equal to current node. Setting right subtree. 
+2022-05-03 11:25:28,464 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:85) root is null. Inserting root for tree.
+2022-05-03 11:25:28,464 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:131) Right subtree is taller. 
+2022-05-03 11:25:28,464 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:142) Tree is even high. Setting balance to right high (1) 
+2022-05-03 11:25:41,359 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:26) Creating AVL Tree. Setting root to null.
+2022-05-03 11:25:41,360 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:27) Big O notation is O(log2n) vs O(n) from standard binary tree.
+2022-05-03 11:25:41,360 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:28) The constraint is : |HL - HR| <= 1
+2022-05-03 11:25:41,360 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:29) This is known as a Height Balanced Tree.
+2022-05-03 11:25:41,360 [main] INFO  AVLTreeDS - AVLInsert(AVLTreeDS.java:63) Inserting 5
+2022-05-03 11:25:41,361 [main] INFO  AVLTreeDS - AVLInsert(AVLTreeDS.java:67) root is null. Inserting root for tree.
+2022-05-03 11:25:41,362 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:126) Node being inserted is greater than or equal to current node. Setting right subtree. 
+2022-05-03 11:25:41,362 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:85) root is null. Inserting root for tree.
+2022-05-03 11:25:41,362 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:131) Right subtree is taller. 
+2022-05-03 11:25:41,363 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:142) Tree is even high. Setting balance to right high (1) 
+2022-05-03 11:26:23,034 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:26) Creating AVL Tree. Setting root to null.
+2022-05-03 11:26:23,035 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:27) Big O notation is O(log2n) vs O(n) from standard binary tree.
+2022-05-03 11:26:23,035 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:28) The constraint is : |HL - HR| <= 1
+2022-05-03 11:26:23,035 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:29) This is known as a Height Balanced Tree.
+2022-05-03 11:26:23,035 [main] INFO  AVLTreeDS - AVLInsert(AVLTreeDS.java:63) Inserting 5
+2022-05-03 11:26:23,035 [main] INFO  AVLTreeDS - AVLInsert(AVLTreeDS.java:67) root is null. Inserting root for tree.
+2022-05-03 11:26:23,036 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:126) Node being inserted is greater than or equal to current node. Setting right subtree. 
+2022-05-03 11:26:23,036 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:85) root is null. Inserting root for tree.
+2022-05-03 11:26:23,037 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:131) Right subtree is taller. 
+2022-05-03 11:26:23,037 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:142) Tree is even high. Setting balance to right high (1) 
+2022-05-03 11:26:23,037 [main] INFO  AVLTreeDS - AVLInsert(AVLTreeDS.java:63) Inserting 6
+2022-05-03 11:26:23,037 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:126) Node being inserted is greater than or equal to current node. Setting right subtree. 
+2022-05-03 11:26:23,038 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:85) root is null. Inserting root for tree.
+2022-05-03 11:26:23,038 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:131) Right subtree is taller. 
+2022-05-03 11:26:23,038 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:142) Tree is even high. Setting balance to right high (1) 
+2022-05-03 11:27:18,718 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:26) Creating AVL Tree. Setting root to null.
+2022-05-03 11:27:18,719 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:27) Big O notation is O(log2n) vs O(n) from standard binary tree.
+2022-05-03 11:27:18,719 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:28) The constraint is : |HL - HR| <= 1
+2022-05-03 11:27:18,719 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:29) This is known as a Height Balanced Tree.
+2022-05-03 11:27:18,719 [main] INFO  AVLTreeDS - AVLInsert(AVLTreeDS.java:63) Inserting 5
+2022-05-03 11:27:18,719 [main] INFO  AVLTreeDS - AVLInsert(AVLTreeDS.java:67) root is null. Inserting root for tree.
+2022-05-03 11:27:18,721 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:126) Node being inserted is greater than or equal to current node. Setting right subtree. 
+2022-05-03 11:27:18,721 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:85) root is null. Inserting root for tree.
+2022-05-03 11:27:18,722 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:131) Right subtree is taller. 
+2022-05-03 11:27:18,722 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:142) Tree is even high. Setting balance to right high (1) 
+2022-05-03 11:27:18,722 [main] INFO  AVLTreeDS - AVLInsert(AVLTreeDS.java:63) Inserting 4
+2022-05-03 11:27:18,723 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:96) Node being inserted is less than current node. Setting left subtree.
+2022-05-03 11:27:18,724 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:85) root is null. Inserting root for tree.
+2022-05-03 11:27:18,724 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:101) Left subtree is taller. 
+2022-05-03 11:27:18,724 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:110) Tree is even high. Setting balance to left high (-1) 
+2022-05-03 14:00:40,087 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:26) Creating AVL Tree. Setting root to null.
+2022-05-03 14:00:40,088 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:27) Big O notation is O(log2n) vs O(n) from standard binary tree.
+2022-05-03 14:00:40,088 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:28) The constraint is : |HL - HR| <= 1
+2022-05-03 14:00:40,088 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:29) This is known as a Height Balanced Tree.
+2022-05-03 14:00:40,088 [main] INFO  AVLTreeDS - AVLInsert(AVLTreeDS.java:63) Inserting 5
+2022-05-03 14:00:40,089 [main] INFO  AVLTreeDS - AVLInsert(AVLTreeDS.java:67) root is null. Inserting root for tree.
+2022-05-03 14:00:40,090 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:126) Node being inserted is greater than or equal to current node. Setting right subtree. 
+2022-05-03 14:00:40,090 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:85) root is null. Inserting root for tree.
+2022-05-03 14:00:40,091 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:131) Right subtree is taller. 
+2022-05-03 14:00:40,091 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:142) Tree is even high. Setting balance to right high (1) 
+2022-05-03 14:00:40,091 [main] INFO  AVLTreeDS - AVLInsert(AVLTreeDS.java:63) Inserting 4
+2022-05-03 14:00:40,091 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:96) Node being inserted is less than current node. Setting left subtree.
+2022-05-03 14:00:40,091 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:85) root is null. Inserting root for tree.
+2022-05-03 14:00:40,092 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:101) Left subtree is taller. 
+2022-05-03 14:00:40,092 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:110) Tree is even high. Setting balance to left high (-1) 
+2022-05-03 14:04:59,572 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:26) Creating AVL Tree. Setting root to null.
+2022-05-03 14:04:59,573 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:27) Big O notation is O(log2n) vs O(n) from standard binary tree.
+2022-05-03 14:04:59,573 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:28) The constraint is : |HL - HR| <= 1
+2022-05-03 14:04:59,573 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:29) This is known as a Height Balanced Tree.
+2022-05-03 14:04:59,573 [main] INFO  AVLTreeDS - AVLInsert(AVLTreeDS.java:63) Inserting 5
+2022-05-03 14:04:59,573 [main] INFO  AVLTreeDS - AVLInsert(AVLTreeDS.java:67) root is null. Inserting root for tree.
+2022-05-03 14:04:59,575 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:126) Node being inserted is greater than or equal to current node. Setting right subtree. 
+2022-05-03 14:04:59,575 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:85) root is null. Inserting root for tree.
+2022-05-03 14:04:59,575 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:131) Right subtree is taller. 
+2022-05-03 14:04:59,575 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:142) Tree is even high. Setting balance to right high (1) 
+2022-05-03 14:09:15,994 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:26) Creating AVL Tree. Setting root to null.
+2022-05-03 14:09:15,995 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:27) Big O notation is O(log2n) vs O(n) from standard binary tree.
+2022-05-03 14:09:15,995 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:28) The constraint is : |HL - HR| <= 1
+2022-05-03 14:09:15,995 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:29) This is known as a Height Balanced Tree.
+2022-05-03 14:09:15,995 [main] INFO  AVLTreeDS - AVLInsert(AVLTreeDS.java:63) Inserting 5
+2022-05-03 14:09:15,995 [main] INFO  AVLTreeDS - AVLInsert(AVLTreeDS.java:67) root is null. Inserting root for tree.
+2022-05-03 14:09:30,987 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:26) Creating AVL Tree. Setting root to null.
+2022-05-03 14:09:30,987 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:27) Big O notation is O(log2n) vs O(n) from standard binary tree.
+2022-05-03 14:09:30,987 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:28) The constraint is : |HL - HR| <= 1
+2022-05-03 14:09:30,987 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:29) This is known as a Height Balanced Tree.
+2022-05-03 14:09:30,987 [main] INFO  AVLTreeDS - AVLInsert(AVLTreeDS.java:63) Inserting 5
+2022-05-03 14:09:30,988 [main] INFO  AVLTreeDS - AVLInsert(AVLTreeDS.java:67) root is null. Inserting root for tree.
+2022-05-03 14:09:30,988 [main] INFO  AVLTreeDS - AVLInsert(AVLTreeDS.java:63) Inserting 4
+2022-05-03 14:09:30,989 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:99) Node being inserted is less than current node. Setting left subtree.
+2022-05-03 14:09:30,989 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:88) root is null. Inserting root for tree.
+2022-05-03 14:09:30,989 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:104) Left subtree is taller. 
+2022-05-03 14:09:30,989 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:113) Tree is even high. Setting balance to left high (-1) 
+2022-05-03 14:09:57,099 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:26) Creating AVL Tree. Setting root to null.
+2022-05-03 14:09:57,100 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:27) Big O notation is O(log2n) vs O(n) from standard binary tree.
+2022-05-03 14:09:57,100 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:28) The constraint is : |HL - HR| <= 1
+2022-05-03 14:09:57,100 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:29) This is known as a Height Balanced Tree.
+2022-05-03 14:09:57,101 [main] INFO  AVLTreeDS - AVLInsert(AVLTreeDS.java:63) Inserting 5
+2022-05-03 14:09:57,101 [main] INFO  AVLTreeDS - AVLInsert(AVLTreeDS.java:67) root is null. Inserting root for tree.
+2022-05-03 14:09:57,102 [main] INFO  AVLTreeDS - AVLInsert(AVLTreeDS.java:63) Inserting 4
+2022-05-03 14:09:57,102 [main] INFO  AVLTreeDS - AVLInsert(AVLTreeDS.java:78) Done Inserting 4
+2022-05-03 14:09:57,103 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:100) Node being inserted is less than current node. Setting left subtree.
+2022-05-03 14:09:57,104 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:89) root is null. Inserting root for tree.
+2022-05-03 14:09:57,104 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:105) Left subtree is taller. 
+2022-05-03 14:09:57,105 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:114) Tree is even high. Setting balance to left high (-1) 
+2022-05-03 14:10:12,464 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:26) Creating AVL Tree. Setting root to null.
+2022-05-03 14:10:12,465 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:27) Big O notation is O(log2n) vs O(n) from standard binary tree.
+2022-05-03 14:10:12,465 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:28) The constraint is : |HL - HR| <= 1
+2022-05-03 14:10:12,465 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:29) This is known as a Height Balanced Tree.
+2022-05-03 14:10:12,465 [main] INFO  AVLTreeDS - AVLInsert(AVLTreeDS.java:63) Inserting 5
+2022-05-03 14:10:12,465 [main] INFO  AVLTreeDS - AVLInsert(AVLTreeDS.java:67) root is null. Inserting root for tree.
+2022-05-03 14:10:12,466 [main] INFO  AVLTreeDS - AVLInsert(AVLTreeDS.java:72) Done Inserting 5
+2022-05-03 14:10:12,466 [main] INFO  AVLTreeDS - AVLInsert(AVLTreeDS.java:63) Inserting 4
+2022-05-03 14:10:12,467 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:100) Node being inserted is less than current node. Setting left subtree.
+2022-05-03 14:10:12,467 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:89) root is null. Inserting root for tree.
+2022-05-03 14:10:12,467 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:105) Left subtree is taller. 
+2022-05-03 14:10:12,467 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:114) Tree is even high. Setting balance to left high (-1) 
+2023-01-20 12:53:58,866 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:26) Creating AVL Tree. Setting root to null.
+2023-01-20 12:53:58,867 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:27) Big O notation is O(log2n) vs O(n) from standard binary tree.
+2023-01-20 12:53:58,868 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:28) The constraint is : |HL - HR| <= 1
+2023-01-20 12:53:58,868 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:29) This is known as a Height Balanced Tree.
+2023-01-20 12:53:58,868 [main] INFO  AVLTreeDS - AVLInsert(AVLTreeDS.java:63) Inserting 5
+2023-01-20 12:53:58,868 [main] INFO  AVLTreeDS - AVLInsert(AVLTreeDS.java:67) root is null. Inserting root for tree.
+2023-01-20 12:53:58,869 [main] INFO  AVLTreeDS - AVLInsert(AVLTreeDS.java:72) Done Inserting 5
+2023-01-20 12:53:58,869 [main] INFO  AVLTreeDS - AVLInsert(AVLTreeDS.java:63) Inserting 4
+2023-01-20 12:53:58,869 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:100) Node being inserted is less than current node. Setting left subtree.
+2023-01-20 12:53:58,870 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:89) root is null. Inserting root for tree.
+2023-01-20 12:53:58,870 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:105) Left subtree is taller. 
+2023-01-20 12:53:58,870 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:114) Tree is even high. Setting balance to left high (-1) 

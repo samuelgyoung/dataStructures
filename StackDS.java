@@ -289,9 +289,9 @@ public class StackDS
 		return stack.getCount();
 	}
 	
-	//TODO:Determine how to test memory levels
 	private boolean stackFull(Stack stack)
 	{
+		System.out.println("This function needs to be converted to test for JVM Memory.");
 		return false;
 	}
 	

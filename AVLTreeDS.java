@@ -1,5 +1,3 @@
-import javax.lang.model.util.ElementScanner6;
-
 import org.apache.log4j.Logger;
 
 public class AVLTreeDS //extends BinaryDS
@@ -20,18 +18,49 @@ public class AVLTreeDS //extends BinaryDS
 	 * 		(NOTE: Book had C++ implmentation only)
 	 */ 
 
+	//USED TO EXPRESS THE TREE IN A STRING
+	private String convertToParenString;
+
 	AVLTreeDS()
 	{
 		logger.info(getCurrentMethodName() + " Creating AVL Tree. Setting root to null.");
 		logger.info(getCurrentMethodName() + " Big O notation is O(log2n) vs O(n) from standard binary tree.");
 		logger.info(getCurrentMethodName() + " The constraint is : |HL - HR| <= 1");
 		logger.info(getCurrentMethodName() + " This is known as a Height Balanced Tree.");
+
+		this.convertToParenString = "";
+
 		this.rootNode = null;
 	}
 
-	public void AVLInsert(Node root, Object data)
+   /*---------------------------------------------------------------------
+    |  Method getRootNode()
+    |
+    |  Author: sgyoung
+    |  
+    |  Purpose:  Return the root nod of the tree.
+    |
+    |  Pre-condition:  None.
+    |
+    |  Post-condition: Returns the root node.
+    |
+    |  Parameters: None.
+    |
+    |  Returns: Root node.
+    *-------------------------------------------------------------------*/
+	public Node getRootNode()
+	{
+        logger.trace(getCurrentMethodName() + " Entering ");
+        logger.debug(getCurrentMethodName() + " Returning root node:  " + rootNode);
+        logger.trace(getCurrentMethodName() + " Exiting ");
+		return this.rootNode;
+	}
+
+	public <T extends Comparable<T>> Node AVLInsert(Node root, Object data)
 	{
 		logger.trace(getCurrentMethodName() + " Entering ");
+
+		logger.info(getCurrentMethodName() + " Inserting " + data);
 
 		if(this.rootNode == null)
 		{
@@ -40,11 +69,15 @@ public class AVLTreeDS //extends BinaryDS
 			this.rootNode = new Node(data); 
 
             logger.trace(getCurrentMethodName() + " Exiting ");
+			logger.info(getCurrentMethodName() + " Done Inserting " + data);
+			return this.rootNode;
 		}
 
-		AVLInsertHelper(this.rootNode, new Node(data), true);
-		
 		logger.trace(getCurrentMethodName() + " Exiting ");
+
+
+		return AVLInsertHelper(this.rootNode, new Node(data), true);
+		
 	}
 
 	private <T extends Comparable<T>> Node AVLInsertHelper(Node root, Node newNode, boolean taller)
@@ -235,6 +268,59 @@ public class AVLTreeDS //extends BinaryDS
 		tempPtr.setLeftSubTree(root);
 		return tempPtr;
 	}
+
+	private void convertToParen(Node node)
+    {
+        logger.trace(getCurrentMethodName() + " Entering ");
+
+        this.convertToParenString = this.convertToParenString + node.getData() + " ";
+
+        if((node.getRightSubTree() != null) || (node.getLeftSubTree() != null))
+        {
+            this.convertToParenString = this.convertToParenString + " ( ";
+
+            if(node.getLeftSubTree() != null)
+            {
+                convertToParen(node.getLeftSubTree());
+            }
+            if(node.getRightSubTree() != null)
+            {
+                convertToParen(node.getRightSubTree());
+            }
+
+            this.convertToParenString = this.convertToParenString + " ) ";
+
+        }
+        logger.trace(getCurrentMethodName() + " Exiting ");
+    }
+
+	public void printBSTParen()
+    {
+        convertToParen(this.getRootNode());
+        System.out.println(getconvertToParenString());
+    }
+
+	/*---------------------------------------------------------------------
+    |  Method getconvertToParenString()
+    |
+    |  Author: sgyoung
+    |  
+    |  Purpose:  Return the binary tree string converted to paren
+    |
+    |  Pre-condition:  None.
+    |
+    |  Post-condition: Returns the converted string.
+    |
+    |  Parameters: None.
+    |
+    |  Returns: Tree to string in parens.
+    *-------------------------------------------------------------------*/
+    public String getconvertToParenString()
+    {
+        logger.trace(getCurrentMethodName() + " Entering ");
+        logger.trace(getCurrentMethodName() + " Exiting ");
+        return this.convertToParenString;
+    }
 
     class Node
 	{
