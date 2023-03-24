@@ -39,13 +39,19 @@ public class dataStructures
 
     public static void testAVLTree()
     {
-        AVLTreeDS AVLTreeDS001 = new AVLTreeDS();
-        AVLTreeDS001.AVLInsert(null, 5);
-        AVLTreeDS001.AVLInsert(null, 4);
+        //AVLTreeDS AVLTreeDS001 = new AVLTreeDS();
+        //AVLTreeDS001.AVLInsert(null, 5);
+        //AVLTreeDS001.AVLInsert(null, 4);
         //AVLTreeDS001.AVLInsert(null, 4);
 
-        System.out.println("OUTPUT:");
-        AVLTreeDS001.printBSTParen();
+        AVLTreeDS_V2 AVLTreeDS_V2_DS001 =  new AVLTreeDS_V2();
+        AVLTreeDS_V2_DS001.insert(null, 5);
+        AVLTreeDS_V2_DS001.insert(null, 4);
+
+        AVLTreeDS_V2_DS001.pre_order(null);
+
+        //System.out.println("OUTPUT:");
+        //AVLTreeDS001.printBSTParen();
         
     }
 

@@ -615,3 +615,42 @@
 2023-01-20 12:53:58,870 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:89) root is null. Inserting root for tree.
 2023-01-20 12:53:58,870 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:105) Left subtree is taller. 
 2023-01-20 12:53:58,870 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:114) Tree is even high. Setting balance to left high (-1) 
+2023-03-24 15:07:09,669 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:26) Creating AVL Tree. Setting root to null.
+2023-03-24 15:07:09,670 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:27) Big O notation is O(log2n) vs O(n) from standard binary tree.
+2023-03-24 15:07:09,670 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:28) The constraint is : |HL - HR| <= 1
+2023-03-24 15:07:09,670 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:29) This is known as a Height Balanced Tree.
+2023-03-24 15:07:09,670 [main] INFO  AVLTreeDS - AVLInsert(AVLTreeDS.java:63) Inserting 5
+2023-03-24 15:07:09,670 [main] INFO  AVLTreeDS - AVLInsert(AVLTreeDS.java:67) root is null. Inserting root for tree.
+2023-03-24 15:07:09,671 [main] INFO  AVLTreeDS - AVLInsert(AVLTreeDS.java:72) Done Inserting 5
+2023-03-24 15:16:47,130 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:26) Creating AVL Tree. Setting root to null.
+2023-03-24 15:16:47,131 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:27) Big O notation is O(log2n) vs O(n) from standard binary tree.
+2023-03-24 15:16:47,131 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:28) The constraint is : |HL - HR| <= 1
+2023-03-24 15:16:47,131 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:29) This is known as a Height Balanced Tree.
+2023-03-24 15:16:47,131 [main] INFO  AVLTreeDS - AVLInsert(AVLTreeDS.java:63) Inserting 5
+2023-03-24 15:16:47,132 [main] INFO  AVLTreeDS - AVLInsert(AVLTreeDS.java:67) root is null. Inserting root for tree.
+2023-03-24 15:16:47,132 [main] INFO  AVLTreeDS - AVLInsert(AVLTreeDS.java:72) Done Inserting 5
+2023-03-24 15:16:47,132 [main] INFO  AVLTreeDS - AVLInsert(AVLTreeDS.java:63) Inserting 6
+2023-03-24 15:16:47,133 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:130) Node being inserted is greater than or equal to current node. Setting right subtree. 
+2023-03-24 15:16:47,133 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:89) root is null. Inserting root for tree.
+2023-03-24 15:16:47,134 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:135) Right subtree is taller. 
+2023-03-24 15:16:47,159 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:146) Tree is even high. Setting balance to right high (1) 
+2023-03-24 15:17:09,095 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:26) Creating AVL Tree. Setting root to null.
+2023-03-24 15:17:09,096 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:27) Big O notation is O(log2n) vs O(n) from standard binary tree.
+2023-03-24 15:17:09,096 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:28) The constraint is : |HL - HR| <= 1
+2023-03-24 15:17:09,096 [main] INFO  AVLTreeDS - <init>(AVLTreeDS.java:29) This is known as a Height Balanced Tree.
+2023-03-24 15:17:09,096 [main] INFO  AVLTreeDS - AVLInsert(AVLTreeDS.java:63) Inserting 5
+2023-03-24 15:17:09,096 [main] INFO  AVLTreeDS - AVLInsert(AVLTreeDS.java:67) root is null. Inserting root for tree.
+2023-03-24 15:17:09,097 [main] INFO  AVLTreeDS - AVLInsert(AVLTreeDS.java:72) Done Inserting 5
+2023-03-24 15:17:09,097 [main] INFO  AVLTreeDS - AVLInsert(AVLTreeDS.java:63) Inserting 4
+2023-03-24 15:17:09,098 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:100) Node being inserted is less than current node. Setting left subtree.
+2023-03-24 15:17:09,098 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:89) root is null. Inserting root for tree.
+2023-03-24 15:17:09,098 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:105) Left subtree is taller. 
+2023-03-24 15:17:09,098 [main] INFO  AVLTreeDS - AVLInsertHelper(AVLTreeDS.java:114) Tree is even high. Setting balance to left high (-1) 
+2023-03-24 15:42:08,276 [main] INFO  AVLTreeDS - <init>(AVLTreeDS_V2.java:36) Creating AVL Tree. Setting root to null.
+2023-03-24 15:42:08,277 [main] INFO  AVLTreeDS - <init>(AVLTreeDS_V2.java:37) Big O notation is O(log2n) vs O(n) from standard binary tree.
+2023-03-24 15:42:37,809 [main] INFO  AVLTreeDS - <init>(AVLTreeDS_V2.java:36) Creating AVL Tree. Setting root to null.
+2023-03-24 15:42:37,811 [main] INFO  AVLTreeDS - <init>(AVLTreeDS_V2.java:37) Big O notation is O(log2n) vs O(n) from standard binary tree.
+2023-03-24 15:43:01,759 [main] INFO  AVLTreeDS - <init>(AVLTreeDS_V2.java:36) Creating AVL Tree. Setting root to null.
+2023-03-24 15:43:01,760 [main] INFO  AVLTreeDS - <init>(AVLTreeDS_V2.java:37) Big O notation is O(log2n) vs O(n) from standard binary tree.
+2023-03-24 15:55:35,849 [main] INFO  AVLTreeDS - <init>(AVLTreeDS_V2.java:38) Creating AVL Tree. Setting root to null.
+2023-03-24 15:55:35,850 [main] INFO  AVLTreeDS - <init>(AVLTreeDS_V2.java:39) Big O notation is O(log2n) vs O(n) from standard binary tree.
